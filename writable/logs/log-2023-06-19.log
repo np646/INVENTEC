@@ -1,0 +1,254 @@
+INFO - 2023-06-19 01:19:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-19 01:20:13 --> Undefined array key "itc_nombre"
+in APPPATH\Controllers\controlador.php on line 52.
+ 1 APPPATH\Controllers\controlador.php(52): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "itc_nombre"', 'C:\\xampp\\htdocs\\proyectoDulce\\app\\Controllers\\controlador.php', 52)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\controlador->insertarPlato()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controlador))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-19 01:20:40 --> Undefined array key "itc_detalle"
+in APPPATH\Controllers\controlador.php on line 53.
+ 1 APPPATH\Controllers\controlador.php(53): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "itc_detalle"', 'C:\\xampp\\htdocs\\proyectoDulce\\app\\Controllers\\controlador.php', 53)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\controlador->insertarPlato()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controlador))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-06-19 01:21:17 --> mysqli_sql_exception: Unknown column 'nombre' in 'field list' in C:\xampp\htdocs\proyectoDulce\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\proyectoDulce\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `tb...', 0)
+#1 C:\xampp\htdocs\proyectoDulce\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\xampp\htdocs\proyectoDulce\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\xampp\htdocs\proyectoDulce\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\xampp\htdocs\proyectoDulce\app\Models\modeloRamona.php(45): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\proyectoDulce\app\Controllers\controlador.php(59): App\Models\modeloRamona->insertarPlato(Array)
+#6 C:\xampp\htdocs\proyectoDulce\system\CodeIgniter.php(934): App\Controllers\controlador->insertarPlato()
+#7 C:\xampp\htdocs\proyectoDulce\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controlador))
+#8 C:\xampp\htdocs\proyectoDulce\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\proyectoDulce\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-06-19 01:21:17 --> Unknown column 'nombre' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `tbl_itemscat` (`nombre`, `detalle`, `precio`, `codigo`) VALUES (\'40 alitas\', \'Papas, ensalada\', \'50\', \'1\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tbl_itemscat` (`nombre`, `detalle`, `precio`, `codigo`) VALUES (\'40 alitas\', \'Papas, ensalada\', \'50\', \'1\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tbl_itemscat` (`nombre`, `detalle`, `precio`, `codigo`) VALUES (\'40 alitas\', \'Papas, ensalada\', \'50\', \'1\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tbl_itemscat` (`nombre`, `detalle`, `precio`, `codigo`) VALUES (:nombre:, :detalle:, :precio:, :codigo:)', [...], false)
+ 5 APPPATH\Models\modeloRamona.php(45): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH\Controllers\controlador.php(59): App\Models\modeloRamona->insertarPlato([...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\controlador->insertarPlato()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controlador))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-19 01:21:53 --> Undefined array key "itc_nombre"
+in APPPATH\Controllers\controlador.php on line 52.
+ 1 APPPATH\Controllers\controlador.php(52): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "itc_nombre"', 'C:\\xampp\\htdocs\\proyectoDulce\\app\\Controllers\\controlador.php', 52)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\controlador->insertarPlato()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controlador))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-19 01:21:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-19 01:22:01 --> Undefined array key "itc_nombre"
+in APPPATH\Controllers\controlador.php on line 52.
+ 1 APPPATH\Controllers\controlador.php(52): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "itc_nombre"', 'C:\\xampp\\htdocs\\proyectoDulce\\app\\Controllers\\controlador.php', 52)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\controlador->insertarPlato()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controlador))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-19 01:23:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-19 01:23:30 --> Undefined array key "itc_nombre"
+in APPPATH\Controllers\controlador.php on line 52.
+ 1 APPPATH\Controllers\controlador.php(52): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "itc_nombre"', 'C:\\xampp\\htdocs\\proyectoDulce\\app\\Controllers\\controlador.php', 52)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\controlador->insertarPlato()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controlador))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-19 01:23:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-19 01:24:13 --> Undefined array key "itc_nombre"
+in APPPATH\Controllers\controlador.php on line 52.
+ 1 APPPATH\Controllers\controlador.php(52): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "itc_nombre"', 'C:\\xampp\\htdocs\\proyectoDulce\\app\\Controllers\\controlador.php', 52)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\controlador->insertarPlato()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controlador))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-19 01:26:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-06-19 01:26:42 --> mysqli_sql_exception: Unknown column 'precio' in 'field list' in C:\xampp\htdocs\proyectoDulce\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\proyectoDulce\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `tb...', 0)
+#1 C:\xampp\htdocs\proyectoDulce\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\xampp\htdocs\proyectoDulce\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\xampp\htdocs\proyectoDulce\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\xampp\htdocs\proyectoDulce\app\Models\modeloRamona.php(45): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\proyectoDulce\app\Controllers\controlador.php(59): App\Models\modeloRamona->insertarPlato(Array)
+#6 C:\xampp\htdocs\proyectoDulce\system\CodeIgniter.php(934): App\Controllers\controlador->insertarPlato()
+#7 C:\xampp\htdocs\proyectoDulce\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controlador))
+#8 C:\xampp\htdocs\proyectoDulce\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\proyectoDulce\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-06-19 01:26:42 --> Unknown column 'precio' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `tbl_itemscat` (`itc_nombre`, `itc_detalle`, `precio`, `cat_id`) VALUES (\'40 alitas\', \'Papas, ensalada\', \'50\', \'1\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tbl_itemscat` (`itc_nombre`, `itc_detalle`, `precio`, `cat_id`) VALUES (\'40 alitas\', \'Papas, ensalada\', \'50\', \'1\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tbl_itemscat` (`itc_nombre`, `itc_detalle`, `precio`, `cat_id`) VALUES (\'40 alitas\', \'Papas, ensalada\', \'50\', \'1\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tbl_itemscat` (`itc_nombre`, `itc_detalle`, `precio`, `cat_id`) VALUES (:itc_nombre:, :itc_detalle:, :precio:, :cat_id:)', [...], false)
+ 5 APPPATH\Models\modeloRamona.php(45): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH\Controllers\controlador.php(59): App\Models\modeloRamona->insertarPlato([...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\controlador->insertarPlato()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controlador))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-19 01:29:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-06-19 01:30:21 --> mysqli_sql_exception: Unknown column 'precio' in 'field list' in C:\xampp\htdocs\proyectoDulce\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\proyectoDulce\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `tb...', 0)
+#1 C:\xampp\htdocs\proyectoDulce\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\xampp\htdocs\proyectoDulce\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\xampp\htdocs\proyectoDulce\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\xampp\htdocs\proyectoDulce\app\Models\modeloRamona.php(45): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\proyectoDulce\app\Controllers\controlador.php(59): App\Models\modeloRamona->insertarPlato(Array)
+#6 C:\xampp\htdocs\proyectoDulce\system\CodeIgniter.php(934): App\Controllers\controlador->insertarPlato()
+#7 C:\xampp\htdocs\proyectoDulce\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controlador))
+#8 C:\xampp\htdocs\proyectoDulce\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\proyectoDulce\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-06-19 01:30:21 --> Unknown column 'precio' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `tbl_itemscat` (`itc_nombre`, `itc_detalle`, `precio`, `cat_id`) VALUES (\'40 alitas\', \'Papas, ensalada\', \'50\', \'1\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tbl_itemscat` (`itc_nombre`, `itc_detalle`, `precio`, `cat_id`) VALUES (\'40 alitas\', \'Papas, ensalada\', \'50\', \'1\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tbl_itemscat` (`itc_nombre`, `itc_detalle`, `precio`, `cat_id`) VALUES (\'40 alitas\', \'Papas, ensalada\', \'50\', \'1\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tbl_itemscat` (`itc_nombre`, `itc_detalle`, `precio`, `cat_id`) VALUES (:itc_nombre:, :itc_detalle:, :precio:, :cat_id:)', [...], false)
+ 5 APPPATH\Models\modeloRamona.php(45): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH\Controllers\controlador.php(59): App\Models\modeloRamona->insertarPlato([...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\controlador->insertarPlato()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controlador))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-19 01:30:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-19 01:31:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-19 01:31:14 --> Undefined array key "itc_nombre"
+in APPPATH\Controllers\controlador.php on line 52.
+ 1 APPPATH\Controllers\controlador.php(52): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "itc_nombre"', 'C:\\xampp\\htdocs\\proyectoDulce\\app\\Controllers\\controlador.php', 52)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\controlador->insertarPlato()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controlador))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-19 01:35:32 --> Undefined array key "itc_nombre"
+in APPPATH\Controllers\controlador.php on line 52.
+ 1 APPPATH\Controllers\controlador.php(52): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "itc_nombre"', 'C:\\xampp\\htdocs\\proyectoDulce\\app\\Controllers\\controlador.php', 52)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\controlador->insertarPlato()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controlador))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-06-19 01:35:44 --> mysqli_sql_exception: Unknown column 'nombre' in 'field list' in C:\xampp\htdocs\proyectoDulce\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\proyectoDulce\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `tb...', 0)
+#1 C:\xampp\htdocs\proyectoDulce\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\xampp\htdocs\proyectoDulce\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\xampp\htdocs\proyectoDulce\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\xampp\htdocs\proyectoDulce\app\Models\modeloRamona.php(45): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\proyectoDulce\app\Controllers\controlador.php(59): App\Models\modeloRamona->insertarPlato(Array)
+#6 C:\xampp\htdocs\proyectoDulce\system\CodeIgniter.php(934): App\Controllers\controlador->insertarPlato()
+#7 C:\xampp\htdocs\proyectoDulce\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controlador))
+#8 C:\xampp\htdocs\proyectoDulce\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\proyectoDulce\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-06-19 01:35:44 --> Unknown column 'nombre' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `tbl_itemscat` (`nombre`, `detalle`, `precio`) VALUES (\'40 alitas\', \'Papas, ensalada\', \'50\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tbl_itemscat` (`nombre`, `detalle`, `precio`) VALUES (\'40 alitas\', \'Papas, ensalada\', \'50\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tbl_itemscat` (`nombre`, `detalle`, `precio`) VALUES (\'40 alitas\', \'Papas, ensalada\', \'50\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tbl_itemscat` (`nombre`, `detalle`, `precio`) VALUES (:nombre:, :detalle:, :precio:)', [...], false)
+ 5 APPPATH\Models\modeloRamona.php(45): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH\Controllers\controlador.php(59): App\Models\modeloRamona->insertarPlato([...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\controlador->insertarPlato()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controlador))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-19 01:37:56 --> Undefined array key "itc_nombre"
+in APPPATH\Controllers\controlador.php on line 52.
+ 1 APPPATH\Controllers\controlador.php(52): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "itc_nombre"', 'C:\\xampp\\htdocs\\proyectoDulce\\app\\Controllers\\controlador.php', 52)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\controlador->insertarPlato()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controlador))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-19 01:40:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-19 01:40:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-19 01:41:17 --> Undefined array key "itc_nombre"
+in APPPATH\Controllers\controlador.php on line 52.
+ 1 APPPATH\Controllers\controlador.php(52): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "itc_nombre"', 'C:\\xampp\\htdocs\\proyectoDulce\\app\\Controllers\\controlador.php', 52)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\controlador->insertarPlato()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controlador))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-19 01:44:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-19 01:44:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-19 01:44:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-19 01:44:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-19 01:45:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-19 01:45:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-19 01:45:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-19 01:45:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-19 01:46:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-19 01:46:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-19 01:46:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-19 01:46:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-19 01:48:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-19 01:48:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-19 01:49:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-19 01:49:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-19 01:49:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-19 01:51:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-19 01:52:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-19 01:52:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-19 01:54:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-19 01:55:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-19 01:55:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-19 01:55:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-19 01:56:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-19 01:56:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-19 01:57:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-19 01:57:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-19 01:57:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-19 01:57:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-19 01:57:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-19 01:58:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-19 01:58:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-19 01:59:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-19 02:39:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-19 02:40:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-19 02:40:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-19 02:41:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-19 02:47:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-19 02:53:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-19 02:54:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-19 02:58:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-19 03:02:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-19 03:03:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-19 03:04:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-19 03:04:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-19 03:04:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-19 03:06:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-19 03:23:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-19 03:23:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-19 03:23:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-19 03:32:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-19 03:32:48 --> Only variables should be assigned by reference
+in APPPATH\Controllers\controlador.php on line 77.
+ 1 APPPATH\Controllers\controlador.php(77): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Only variables should be assigned by reference', 'C:\\xampp\\htdocs\\proyectoDulce\\app\\Controllers\\controlador.php', 77)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\controlador->eliminar('4')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controlador))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-19 03:32:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-19 03:33:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-19 03:33:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-19 03:34:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-19 03:34:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-19 03:34:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-19 12:13:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-19 12:17:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-19 14:00:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-19 17:13:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-19 17:16:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-19 17:32:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-19 17:32:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-19 17:54:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-19 20:25:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

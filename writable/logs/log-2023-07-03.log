@@ -1,0 +1,170 @@
+ERROR - 2023-07-03 13:52:15 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in C:\xampp\htdocs\proyectoDulce\system\Database\MySQLi\Connection.php:174
+Stack trace:
+#0 C:\xampp\htdocs\proyectoDulce\system\Database\MySQLi\Connection.php(174): mysqli->real_connect('localhost', 'root', '', 'bdd_inventec', 3306, '', 0)
+#1 C:\xampp\htdocs\proyectoDulce\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\proyectoDulce\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\proyectoDulce\app\Models\modeloProveedor.php(11): CodeIgniter\Database\BaseConnection->query('call SELECT_PRO...')
+#4 C:\xampp\htdocs\proyectoDulce\app\Controllers\controladorProveedor.php(40): App\Models\modeloProveedor->listarProveedores()
+#5 C:\xampp\htdocs\proyectoDulce\system\CodeIgniter.php(934): App\Controllers\controladorProveedor->listarProveedores()
+#6 C:\xampp\htdocs\proyectoDulce\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controladorProveedor))
+#7 C:\xampp\htdocs\proyectoDulce\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\proyectoDulce\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: NO) in C:\xampp\htdocs\proyectoDulce\system\Database\MySQLi\Connection.php:218
+Stack trace:
+#0 C:\xampp\htdocs\proyectoDulce\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\proyectoDulce\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\proyectoDulce\app\Models\modeloProveedor.php(11): CodeIgniter\Database\BaseConnection->query('call SELECT_PRO...')
+#3 C:\xampp\htdocs\proyectoDulce\app\Controllers\controladorProveedor.php(40): App\Models\modeloProveedor->listarProveedores()
+#4 C:\xampp\htdocs\proyectoDulce\system\CodeIgniter.php(934): App\Controllers\controladorProveedor->listarProveedores()
+#5 C:\xampp\htdocs\proyectoDulce\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controladorProveedor))
+#6 C:\xampp\htdocs\proyectoDulce\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\proyectoDulce\index.php(67): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-07-03 13:52:15 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: NO)
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 APPPATH\Models\modeloProveedor.php(11): CodeIgniter\Database\BaseConnection->query('call SELECT_PROVEEDORES;')
+ 3 APPPATH\Controllers\controladorProveedor.php(40): App\Models\modeloProveedor->listarProveedores()
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\controladorProveedor->listarProveedores()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controladorProveedor))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-03 13:55:32 --> Object of class CodeIgniter\HTTP\RedirectResponse could not be converted to string
+in APPPATH\Controllers\controladorProveedor.php on line 30.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\controladorProveedor->agregarProveedor()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controladorProveedor))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-03 13:56:06 --> syntax error, unexpected token "*"
+in APPPATH\Controllers\controladorProveedor.php on line 30.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\proyectoDulce\\app\\Controllers\\controladorProveedor.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\controladorProveedor')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\controladorProveedor')
+ 4 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\controladorProveedor', true)
+ 5 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-03 13:56:06 --> syntax error, unexpected token "*"
+in APPPATH\Controllers\controladorProveedor.php on line 30.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\proyectoDulce\\app\\Controllers\\controladorProveedor.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\controladorProveedor')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\controladorProveedor')
+ 4 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\controladorProveedor', true)
+ 5 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-03 14:09:45 --> Undefined array key "prv_id"
+in APPPATH\Models\modeloProveedor.php on line 35.
+ 1 APPPATH\Models\modeloProveedor.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "prv_id"', 'C:\\xampp\\htdocs\\proyectoDulce\\app\\Models\\modeloProveedor.php', 35)
+ 2 APPPATH\Controllers\controladorProveedor.php(60): App\Models\modeloProveedor->verificarProveedor([...])
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\controladorProveedor->insertarProveedor()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controladorProveedor))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-03 14:11:35 --> Undefined constant "App\Controllers\objModelo"
+in APPPATH\Controllers\controladorProveedor.php on line 63.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\controladorProveedor->insertarProveedor()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controladorProveedor))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-03 14:54:29 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 883.
+ 1 SYSTEMPATH\Model.php(642): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(803): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\controladorProveedor.php(63): CodeIgniter\Model->__get('num_rows')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\controladorProveedor->insertarProveedor()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controladorProveedor))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-03 14:54:29 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 883.
+ 1 SYSTEMPATH\Model.php(642): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(803): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\controladorProveedor.php(63): CodeIgniter\Model->__get('num_rows')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\controladorProveedor->insertarProveedor()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controladorProveedor))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-03 14:58:18 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 883.
+ 1 SYSTEMPATH\Model.php(642): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(832): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\controladorProveedor.php(63): CodeIgniter\Model->__call('num_rows', [])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\controladorProveedor->insertarProveedor()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controladorProveedor))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-03 14:58:27 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 883.
+ 1 SYSTEMPATH\Model.php(642): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(832): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\controladorProveedor.php(63): CodeIgniter\Model->__call('num_rows', [])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\controladorProveedor->insertarProveedor()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controladorProveedor))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-03 16:08:40 --> Undefined variable $proveedores
+in APPPATH\Views\agregarProducto.php on line 42.
+ 1 APPPATH\Views\agregarProducto.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $proveedores', 'C:\\xampp\\htdocs\\proyectoDulce\\app\\Views\\agregarProducto.php', 42)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\proyectoDulce\\app\\Views\\agregarProducto.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('agregarProducto', [], true)
+ 5 APPPATH\Controllers\controladorProducto.php(27): view('agregarProducto')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\controladorProducto->agregarProducto()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controladorProducto))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-03 16:34:05 --> Undefined array key "cantidad"
+in APPPATH\Controllers\controladorProducto.php on line 43.
+ 1 APPPATH\Controllers\controladorProducto.php(43): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "cantidad"', 'C:\\xampp\\htdocs\\proyectoDulce\\app\\Controllers\\controladorProducto.php', 43)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\controladorProducto->insertarProducto()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controladorProducto))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-03 16:36:49 --> Undefined array key "ctgid"
+in APPPATH\Controllers\controladorProducto.php on line 45.
+ 1 APPPATH\Controllers\controladorProducto.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "ctgid"', 'C:\\xampp\\htdocs\\proyectoDulce\\app\\Controllers\\controladorProducto.php', 45)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\controladorProducto->insertarProducto()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controladorProducto))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-03 16:37:28 --> Undefined array key "pro_prvid"
+in APPPATH\Models\modeloProducto.php on line 13.
+ 1 APPPATH\Models\modeloProducto.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "pro_prvid"', 'C:\\xampp\\htdocs\\proyectoDulce\\app\\Models\\modeloProducto.php', 13)
+ 2 APPPATH\Controllers\controladorProducto.php(49): App\Models\modeloProducto->insertarProducto([...])
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\controladorProducto->insertarProducto()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controladorProducto))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-03 16:38:43 --> Undefined variable $proveedores
+in APPPATH\Views\agregarProducto.php on line 25.
+ 1 APPPATH\Views\agregarProducto.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $proveedores', 'C:\\xampp\\htdocs\\proyectoDulce\\app\\Views\\agregarProducto.php', 25)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\proyectoDulce\\app\\Views\\agregarProducto.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('agregarProducto', [], true)
+ 5 APPPATH\Controllers\controladorProducto.php(63): view('agregarProducto')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\controladorProducto->insertarProducto()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controladorProducto))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-03 17:15:25 --> Undefined array key "seleccion"
+in APPPATH\Controllers\controladorProducto.php on line 99.
+ 1 APPPATH\Controllers\controladorProducto.php(99): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "seleccion"', 'C:\\xampp\\htdocs\\proyectoDulce\\app\\Controllers\\controladorProducto.php', 99)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\controladorProducto->verProductosPorCategoria('1')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controladorProducto))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-03 17:16:54 --> Undefined property: stdClass::$prv_nombre
+in APPPATH\Views\verProductosPorCategoria.php on line 32.
+ 1 APPPATH\Views\verProductosPorCategoria.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$prv_nombre', 'C:\\xampp\\htdocs\\proyectoDulce\\app\\Views\\verProductosPorCategoria.php', 32)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\proyectoDulce\\app\\Views\\verProductosPorCategoria.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('verProductosPorCategoria', [], true)
+ 5 APPPATH\Controllers\controladorProducto.php(108): view('verProductosPorCategoria', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\controladorProducto->verProductosPorCategoria('1')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controladorProducto))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

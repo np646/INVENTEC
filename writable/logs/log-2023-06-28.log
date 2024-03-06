@@ -1,0 +1,113 @@
+CRITICAL - 2023-06-28 17:23:45 --> The framework needs the following extension(s) installed and loaded: intl.
+in SYSTEMPATH\CodeIgniter.php on line 226.
+ 1 SYSTEMPATH\CodeIgniter.php(226): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+ 2 SYSTEMPATH\CodeIgniter.php(190): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+ 3 FCPATH\index.php(55): CodeIgniter\CodeIgniter->initialize()
+ERROR - 2023-06-28 15:37:06 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: YES) in C:\xampp\htdocs\proyectoDulce\system\Database\MySQLi\Connection.php:174
+Stack trace:
+#0 C:\xampp\htdocs\proyectoDulce\system\Database\MySQLi\Connection.php(174): mysqli->real_connect('localhost', 'root', 'root', 'bdd_ramona', 3306, '', 0)
+#1 C:\xampp\htdocs\proyectoDulce\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\proyectoDulce\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\proyectoDulce\app\Models\modeloMenu.php(7): CodeIgniter\Database\BaseConnection->query('SELECT ITC. * F...')
+#4 C:\xampp\htdocs\proyectoDulce\app\Controllers\controladorMenu.php(26): App\Models\modeloMenu->listarAlitas()
+#5 C:\xampp\htdocs\proyectoDulce\system\CodeIgniter.php(934): App\Controllers\controladorMenu->menu()
+#6 C:\xampp\htdocs\proyectoDulce\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controladorMenu))
+#7 C:\xampp\htdocs\proyectoDulce\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\proyectoDulce\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: YES) in C:\xampp\htdocs\proyectoDulce\system\Database\MySQLi\Connection.php:218
+Stack trace:
+#0 C:\xampp\htdocs\proyectoDulce\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\proyectoDulce\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\proyectoDulce\app\Models\modeloMenu.php(7): CodeIgniter\Database\BaseConnection->query('SELECT ITC. * F...')
+#3 C:\xampp\htdocs\proyectoDulce\app\Controllers\controladorMenu.php(26): App\Models\modeloMenu->listarAlitas()
+#4 C:\xampp\htdocs\proyectoDulce\system\CodeIgniter.php(934): App\Controllers\controladorMenu->menu()
+#5 C:\xampp\htdocs\proyectoDulce\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controladorMenu))
+#6 C:\xampp\htdocs\proyectoDulce\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\proyectoDulce\index.php(67): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-06-28 15:37:06 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 APPPATH\Models\modeloMenu.php(7): CodeIgniter\Database\BaseConnection->query('SELECT ITC. * FROM TBL_CATALOGO CAT INNER JOIN TBL_ITEMSCAT ITC ON CAT.cat_id = ITC.cat_id
+	    WHERE CAT.cat_codigo = \'Alitas\'')
+ 3 APPPATH\Controllers\controladorMenu.php(26): App\Models\modeloMenu->listarAlitas()
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\controladorMenu->menu()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controladorMenu))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-06-28 15:37:21 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: YES) in C:\xampp\htdocs\proyectoDulce\system\Database\MySQLi\Connection.php:174
+Stack trace:
+#0 C:\xampp\htdocs\proyectoDulce\system\Database\MySQLi\Connection.php(174): mysqli->real_connect('localhost', 'root', 'root', 'bdd_ramona', 3306, '', 0)
+#1 C:\xampp\htdocs\proyectoDulce\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\proyectoDulce\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\proyectoDulce\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\xampp\htdocs\proyectoDulce\app\Models\modeloPedido.php(9): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\proyectoDulce\app\Controllers\controladorPedido.php(26): App\Models\modeloPedido->insertarPedido(Array)
+#6 C:\xampp\htdocs\proyectoDulce\system\CodeIgniter.php(934): App\Controllers\controladorPedido->crearPedido()
+#7 C:\xampp\htdocs\proyectoDulce\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controladorPedido))
+#8 C:\xampp\htdocs\proyectoDulce\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\proyectoDulce\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: YES) in C:\xampp\htdocs\proyectoDulce\system\Database\MySQLi\Connection.php:218
+Stack trace:
+#0 C:\xampp\htdocs\proyectoDulce\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\proyectoDulce\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\proyectoDulce\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#3 C:\xampp\htdocs\proyectoDulce\app\Models\modeloPedido.php(9): CodeIgniter\Database\BaseBuilder->insert(Array)
+#4 C:\xampp\htdocs\proyectoDulce\app\Controllers\controladorPedido.php(26): App\Models\modeloPedido->insertarPedido(Array)
+#5 C:\xampp\htdocs\proyectoDulce\system\CodeIgniter.php(934): App\Controllers\controladorPedido->crearPedido()
+#6 C:\xampp\htdocs\proyectoDulce\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controladorPedido))
+#7 C:\xampp\htdocs\proyectoDulce\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\proyectoDulce\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-06-28 15:37:21 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tbl_pedido` (`ped_nombre`, `ped_fecha`, `ped_hora`) VALUES (:ped_nombre:, :ped_fecha:, :ped_hora:)', [...], false)
+ 3 APPPATH\Models\modeloPedido.php(9): CodeIgniter\Database\BaseBuilder->insert([...])
+ 4 APPPATH\Controllers\controladorPedido.php(26): App\Models\modeloPedido->insertarPedido([...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\controladorPedido->crearPedido()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controladorPedido))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-06-28 15:42:22 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: YES) in C:\xampp\htdocs\proyectoDulce\system\Database\MySQLi\Connection.php:174
+Stack trace:
+#0 C:\xampp\htdocs\proyectoDulce\system\Database\MySQLi\Connection.php(174): mysqli->real_connect('localhost', 'root', 'root', 'bdd_ramona', 3306, '', 0)
+#1 C:\xampp\htdocs\proyectoDulce\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\proyectoDulce\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\proyectoDulce\app\Models\modeloMenu.php(7): CodeIgniter\Database\BaseConnection->query('SELECT ITC. * F...')
+#4 C:\xampp\htdocs\proyectoDulce\app\Controllers\controladorMenu.php(26): App\Models\modeloMenu->listarAlitas()
+#5 C:\xampp\htdocs\proyectoDulce\system\CodeIgniter.php(934): App\Controllers\controladorMenu->menu()
+#6 C:\xampp\htdocs\proyectoDulce\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controladorMenu))
+#7 C:\xampp\htdocs\proyectoDulce\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\proyectoDulce\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: YES) in C:\xampp\htdocs\proyectoDulce\system\Database\MySQLi\Connection.php:218
+Stack trace:
+#0 C:\xampp\htdocs\proyectoDulce\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\proyectoDulce\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\proyectoDulce\app\Models\modeloMenu.php(7): CodeIgniter\Database\BaseConnection->query('SELECT ITC. * F...')
+#3 C:\xampp\htdocs\proyectoDulce\app\Controllers\controladorMenu.php(26): App\Models\modeloMenu->listarAlitas()
+#4 C:\xampp\htdocs\proyectoDulce\system\CodeIgniter.php(934): App\Controllers\controladorMenu->menu()
+#5 C:\xampp\htdocs\proyectoDulce\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controladorMenu))
+#6 C:\xampp\htdocs\proyectoDulce\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\proyectoDulce\index.php(67): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-06-28 15:42:22 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 APPPATH\Models\modeloMenu.php(7): CodeIgniter\Database\BaseConnection->query('SELECT ITC. * FROM TBL_CATALOGO CAT INNER JOIN TBL_ITEMSCAT ITC ON CAT.cat_id = ITC.cat_id
+	    WHERE CAT.cat_codigo = \'Alitas\'')
+ 3 APPPATH\Controllers\controladorMenu.php(26): App\Models\modeloMenu->listarAlitas()
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\controladorMenu->menu()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controladorMenu))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-28 15:44:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

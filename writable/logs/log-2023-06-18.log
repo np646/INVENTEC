@@ -1,0 +1,83 @@
+CRITICAL - 2023-06-18 21:14:32 --> syntax error, unexpected token "return"
+in APPPATH\Models\modeloRamona.php on line 14.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\proyectoDulce\\app\\Models\\modeloRamona.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\modeloRamona')
+ 3 APPPATH\Controllers\controlador.php(23): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\modeloRamona')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\controlador->menu()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controlador))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-18 21:15:54 --> syntax error, unexpected token "return"
+in APPPATH\Models\modeloRamona.php on line 9.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\proyectoDulce\\app\\Models\\modeloRamona.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\modeloRamona')
+ 3 APPPATH\Controllers\controlador.php(23): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\modeloRamona')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\controlador->menu()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controlador))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-18 21:16:04 --> syntax error, unexpected token "return"
+in APPPATH\Models\modeloRamona.php on line 9.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\proyectoDulce\\app\\Models\\modeloRamona.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\modeloRamona')
+ 3 APPPATH\Controllers\controlador.php(23): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\modeloRamona')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\controlador->menu()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controlador))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-18 21:17:05 --> Undefined constant "App\Controllers\objModelo"
+in APPPATH\Controllers\controlador.php on line 24.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\controlador->menu()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controlador))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-18 21:18:04 --> Undefined constant "App\Models\this"
+in APPPATH\Models\modeloRamona.php on line 6.
+ 1 APPPATH\Controllers\controlador.php(24): App\Models\modeloRamona->listarAlitas()
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\controlador->menu()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controlador))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-18 21:18:13 --> Undefined constant "App\Models\this"
+in APPPATH\Models\modeloRamona.php on line 6.
+ 1 APPPATH\Controllers\controlador.php(24): App\Models\modeloRamona->listarAlitas()
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\controlador->menu()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controlador))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-18 21:18:14 --> Undefined constant "App\Models\this"
+in APPPATH\Models\modeloRamona.php on line 6.
+ 1 APPPATH\Controllers\controlador.php(24): App\Models\modeloRamona->listarAlitas()
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\controlador->menu()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controlador))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-18 21:18:47 --> Undefined constant "App\Models\this"
+in APPPATH\Models\modeloRamona.php on line 6.
+ 1 APPPATH\Controllers\controlador.php(24): App\Models\modeloRamona->listarAlitas()
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\controlador->menu()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controlador))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-18 21:42:22 --> Undefined variable $datos
+in APPPATH\Views\menu.php on line 92.
+ 1 APPPATH\Views\menu.php(92): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $datos', 'C:\\xampp\\htdocs\\proyectoDulce\\app\\Views\\menu.php', 92)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\proyectoDulce\\app\\Views\\menu.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('menu', [], true)
+ 5 APPPATH\Controllers\controlador.php(24): view('menu')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\controlador->menu()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controlador))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-18 21:43:11 --> Undefined variable $datos
+in APPPATH\Views\menu.php on line 92.
+ 1 APPPATH\Views\menu.php(92): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $datos', 'C:\\xampp\\htdocs\\proyectoDulce\\app\\Views\\menu.php', 92)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\proyectoDulce\\app\\Views\\menu.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('menu', [], true)
+ 5 APPPATH\Controllers\controlador.php(24): view('menu')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\controlador->menu()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controlador))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

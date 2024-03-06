@@ -1,0 +1,966 @@
+CRITICAL - 2023-07-05 00:19:12 --> Undefined variable $productos
+in APPPATH\Views\verProductos.php on line 23.
+ 1 APPPATH\Views\verProductos.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $productos', 'C:\\xampp\\htdocs\\proyectoDulce\\app\\Views\\verProductos.php', 23)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\proyectoDulce\\app\\Views\\verProductos.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('verProductos', [], true)
+ 5 APPPATH\Controllers\controladorPDF.php(14): view('verProductos')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\controladorPDF->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controladorPDF))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-05 00:19:53 --> Undefined variable $productos
+in APPPATH\Views\verProductos.php on line 23.
+ 1 APPPATH\Views\verProductos.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $productos', 'C:\\xampp\\htdocs\\proyectoDulce\\app\\Views\\verProductos.php', 23)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\proyectoDulce\\app\\Views\\verProductos.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('verProductos', [], true)
+ 5 APPPATH\Controllers\controladorPDF.php(14): view('verProductos')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\controladorPDF->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controladorPDF))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-05 00:19:53 --> Undefined variable $productos
+in APPPATH\Views\verProductos.php on line 23.
+ 1 APPPATH\Views\verProductos.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $productos', 'C:\\xampp\\htdocs\\proyectoDulce\\app\\Views\\verProductos.php', 23)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\proyectoDulce\\app\\Views\\verProductos.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('verProductos', [], true)
+ 5 APPPATH\Controllers\controladorPDF.php(14): view('verProductos')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\controladorPDF->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controladorPDF))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-05 00:19:54 --> Undefined variable $productos
+in APPPATH\Views\verProductos.php on line 23.
+ 1 APPPATH\Views\verProductos.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $productos', 'C:\\xampp\\htdocs\\proyectoDulce\\app\\Views\\verProductos.php', 23)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\proyectoDulce\\app\\Views\\verProductos.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('verProductos', [], true)
+ 5 APPPATH\Controllers\controladorPDF.php(14): view('verProductos')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\controladorPDF->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controladorPDF))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-05 00:20:19 --> Undefined variable $productos
+in APPPATH\Views\verProductos.php on line 23.
+ 1 APPPATH\Views\verProductos.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $productos', 'C:\\xampp\\htdocs\\proyectoDulce\\app\\Views\\verProductos.php', 23)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\proyectoDulce\\app\\Views\\verProductos.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('verProductos', [], true)
+ 5 APPPATH\Controllers\controladorPDF.php(14): view('verProductos')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\controladorPDF->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controladorPDF))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-05 01:50:24 --> Undefined variable $ped
+in APPPATH\Views\crearPedido.php on line 103.
+ 1 APPPATH\Views\crearPedido.php(103): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $ped', 'C:\\xampp\\htdocs\\proyectoDulce\\app\\Views\\crearPedido.php', 103)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\proyectoDulce\\app\\Views\\crearPedido.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('crearPedido', [], true)
+ 5 APPPATH\Controllers\controladorPedido.php(165): view('crearPedido', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\controladorPedido->insertarMasEnPedido()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controladorPedido))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-05 02:06:26 --> Attempt to read property "ped_id" on string
+in APPPATH\Views\ultimoPedido.php on line 7.
+ 1 APPPATH\Views\ultimoPedido.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "ped_id" on string', 'C:\\xampp\\htdocs\\proyectoDulce\\app\\Views\\ultimoPedido.php', 7)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\proyectoDulce\\app\\Views\\ultimoPedido.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('ultimoPedido', [], true)
+ 5 APPPATH\Controllers\controladorPedido.php(108): view('ultimoPedido', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\controladorPedido->insertarProductoEnPedido()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controladorPedido))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-05 02:07:27 --> Attempt to read property "ped_id" on string
+in APPPATH\Views\ultimoPedido.php on line 7.
+ 1 APPPATH\Views\ultimoPedido.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "ped_id" on string', 'C:\\xampp\\htdocs\\proyectoDulce\\app\\Views\\ultimoPedido.php', 7)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\proyectoDulce\\app\\Views\\ultimoPedido.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('ultimoPedido', [], true)
+ 5 APPPATH\Controllers\controladorPedido.php(108): view('ultimoPedido', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\controladorPedido->insertarProductoEnPedido()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controladorPedido))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-05 02:09:34 --> session_destroy(): Trying to destroy uninitialized session
+in APPPATH\Views\index.php on line 3.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'session_destroy(): Trying to destroy uninitialized session', 'C:\\xampp\\htdocs\\proyectoDulce\\app\\Views\\index.php', 3)
+ 2 APPPATH\Views\index.php(3): session_destroy()
+ 3 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\proyectoDulce\\app\\Views\\index.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('Index', [], true)
+ 6 APPPATH\Controllers\controladorIndex.php(16): view('Index')
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\controladorIndex->Index()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controladorIndex))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-05 02:09:51 --> session_destroy(): Trying to destroy uninitialized session
+in APPPATH\Views\crearPedido.php on line 4.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'session_destroy(): Trying to destroy uninitialized session', 'C:\\xampp\\htdocs\\proyectoDulce\\app\\Views\\crearPedido.php', 4)
+ 2 APPPATH\Views\crearPedido.php(4): session_destroy()
+ 3 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\proyectoDulce\\app\\Views\\crearPedido.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('crearPedido', [], true)
+ 6 APPPATH\Controllers\controladorPedido.php(167): view('crearPedido', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\controladorPedido->insertarMasEnPedido()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controladorPedido))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-05 02:10:02 --> session_destroy(): Trying to destroy uninitialized session
+in APPPATH\Views\crearPedido.php on line 4.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'session_destroy(): Trying to destroy uninitialized session', 'C:\\xampp\\htdocs\\proyectoDulce\\app\\Views\\crearPedido.php', 4)
+ 2 APPPATH\Views\crearPedido.php(4): session_destroy()
+ 3 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\proyectoDulce\\app\\Views\\crearPedido.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('crearPedido', [], true)
+ 6 APPPATH\Controllers\controladorPedido.php(167): view('crearPedido', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\controladorPedido->insertarMasEnPedido()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controladorPedido))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-05 02:13:42 --> Undefined array key "ultimoPedidoID"
+in APPPATH\Views\crearPedido.php on line 10.
+ 1 APPPATH\Views\crearPedido.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "ultimoPedidoID"', 'C:\\xampp\\htdocs\\proyectoDulce\\app\\Views\\crearPedido.php', 10)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\proyectoDulce\\app\\Views\\crearPedido.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('crearPedido', [], true)
+ 5 APPPATH\Controllers\controladorPedido.php(167): view('crearPedido', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\controladorPedido->insertarMasEnPedido()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controladorPedido))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-05 02:14:40 --> Undefined array key "ultimoPedidoID"
+in APPPATH\Views\crearPedido.php on line 10.
+ 1 APPPATH\Views\crearPedido.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "ultimoPedidoID"', 'C:\\xampp\\htdocs\\proyectoDulce\\app\\Views\\crearPedido.php', 10)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\proyectoDulce\\app\\Views\\crearPedido.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('crearPedido', [], true)
+ 5 APPPATH\Controllers\controladorPedido.php(167): view('crearPedido', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\controladorPedido->insertarMasEnPedido()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controladorPedido))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-05 02:14:43 --> Undefined array key "ultimoPedidoID"
+in APPPATH\Views\crearPedido.php on line 10.
+ 1 APPPATH\Views\crearPedido.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "ultimoPedidoID"', 'C:\\xampp\\htdocs\\proyectoDulce\\app\\Views\\crearPedido.php', 10)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\proyectoDulce\\app\\Views\\crearPedido.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('crearPedido', [], true)
+ 5 APPPATH\Controllers\controladorPedido.php(167): view('crearPedido', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\controladorPedido->insertarMasEnPedido()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controladorPedido))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-05 02:15:24 --> Undefined array key "ultimoPedidoID"
+in APPPATH\Views\crearPedido.php on line 10.
+ 1 APPPATH\Views\crearPedido.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "ultimoPedidoID"', 'C:\\xampp\\htdocs\\proyectoDulce\\app\\Views\\crearPedido.php', 10)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\proyectoDulce\\app\\Views\\crearPedido.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('crearPedido', [], true)
+ 5 APPPATH\Controllers\controladorPedido.php(167): view('crearPedido', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\controladorPedido->insertarMasEnPedido()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controladorPedido))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-05 02:16:00 --> Undefined array key "ultimoPedidoID"
+in APPPATH\Views\crearPedido.php on line 11.
+ 1 APPPATH\Views\crearPedido.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "ultimoPedidoID"', 'C:\\xampp\\htdocs\\proyectoDulce\\app\\Views\\crearPedido.php', 11)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\proyectoDulce\\app\\Views\\crearPedido.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('crearPedido', [], true)
+ 5 APPPATH\Controllers\controladorPedido.php(167): view('crearPedido', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\controladorPedido->insertarMasEnPedido()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controladorPedido))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-05 02:16:16 --> Undefined array key "ultimoPedidoID"
+in APPPATH\Views\crearPedido.php on line 11.
+ 1 APPPATH\Views\crearPedido.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "ultimoPedidoID"', 'C:\\xampp\\htdocs\\proyectoDulce\\app\\Views\\crearPedido.php', 11)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\proyectoDulce\\app\\Views\\crearPedido.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('crearPedido', [], true)
+ 5 APPPATH\Controllers\controladorPedido.php(167): view('crearPedido', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\controladorPedido->insertarMasEnPedido()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controladorPedido))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-05 02:17:14 --> Undefined array key "prvped"
+in APPPATH\Views\verDetallePedido.php on line 105.
+ 1 APPPATH\Views\verDetallePedido.php(105): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "prvped"', 'C:\\xampp\\htdocs\\proyectoDulce\\app\\Views\\verDetallePedido.php', 105)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\proyectoDulce\\app\\Views\\verDetallePedido.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('verDetallePedido', [], true)
+ 5 APPPATH\Controllers\controladorPedido.php(136): view('verDetallePedido', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\controladorPedido->listarProductosEnPedido()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controladorPedido))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-05 02:18:03 --> Undefined array key "prvped"
+in APPPATH\Views\verDetallePedido.php on line 105.
+ 1 APPPATH\Views\verDetallePedido.php(105): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "prvped"', 'C:\\xampp\\htdocs\\proyectoDulce\\app\\Views\\verDetallePedido.php', 105)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\proyectoDulce\\app\\Views\\verDetallePedido.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('verDetallePedido', [], true)
+ 5 APPPATH\Controllers\controladorPedido.php(136): view('verDetallePedido', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\controladorPedido->listarProductosEnPedido()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controladorPedido))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-05 02:18:09 --> Undefined array key "prvped"
+in APPPATH\Views\verDetallePedido.php on line 105.
+ 1 APPPATH\Views\verDetallePedido.php(105): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "prvped"', 'C:\\xampp\\htdocs\\proyectoDulce\\app\\Views\\verDetallePedido.php', 105)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\proyectoDulce\\app\\Views\\verDetallePedido.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('verDetallePedido', [], true)
+ 5 APPPATH\Controllers\controladorPedido.php(136): view('verDetallePedido', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\controladorPedido->listarProductosEnPedido()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controladorPedido))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-05 02:18:55 --> Undefined array key "prvped"
+in APPPATH\Views\verDetallePedido.php on line 105.
+ 1 APPPATH\Views\verDetallePedido.php(105): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "prvped"', 'C:\\xampp\\htdocs\\proyectoDulce\\app\\Views\\verDetallePedido.php', 105)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\proyectoDulce\\app\\Views\\verDetallePedido.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('verDetallePedido', [], true)
+ 5 APPPATH\Controllers\controladorPedido.php(136): view('verDetallePedido', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\controladorPedido->listarProductosEnPedido()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controladorPedido))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-05 02:19:34 --> Undefined array key "prvped"
+in APPPATH\Views\verDetallePedido.php on line 105.
+ 1 APPPATH\Views\verDetallePedido.php(105): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "prvped"', 'C:\\xampp\\htdocs\\proyectoDulce\\app\\Views\\verDetallePedido.php', 105)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\proyectoDulce\\app\\Views\\verDetallePedido.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('verDetallePedido', [], true)
+ 5 APPPATH\Controllers\controladorPedido.php(136): view('verDetallePedido', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\controladorPedido->listarProductosEnPedido()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controladorPedido))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-05 02:20:02 --> Undefined array key "prvped"
+in APPPATH\Views\verDetallePedido.php on line 105.
+ 1 APPPATH\Views\verDetallePedido.php(105): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "prvped"', 'C:\\xampp\\htdocs\\proyectoDulce\\app\\Views\\verDetallePedido.php', 105)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\proyectoDulce\\app\\Views\\verDetallePedido.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('verDetallePedido', [], true)
+ 5 APPPATH\Controllers\controladorPedido.php(136): view('verDetallePedido', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\controladorPedido->listarProductosEnPedido()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controladorPedido))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-05 02:26:18 --> session_start(): Ignoring session_start() because a session is already active
+in APPPATH\Views\verDetallePedido.php on line 2.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8, 'session_start(): Ignoring session_start() because a session is already active', 'C:\\xampp\\htdocs\\proyectoDulce\\app\\Views\\verDetallePedido.php', 2)
+ 2 APPPATH\Views\verDetallePedido.php(2): session_start()
+ 3 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\proyectoDulce\\app\\Views\\verDetallePedido.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('verDetallePedido', [], true)
+ 6 APPPATH\Controllers\controladorPedido.php(136): view('verDetallePedido', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\controladorPedido->listarProductosEnPedido()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controladorPedido))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-05 02:26:39 --> Undefined array key "prvid"
+in APPPATH\Views\verDetallePedido.php on line 9.
+ 1 APPPATH\Views\verDetallePedido.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "prvid"', 'C:\\xampp\\htdocs\\proyectoDulce\\app\\Views\\verDetallePedido.php', 9)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\proyectoDulce\\app\\Views\\verDetallePedido.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('verDetallePedido', [], true)
+ 5 APPPATH\Controllers\controladorPedido.php(136): view('verDetallePedido', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\controladorPedido->listarProductosEnPedido()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controladorPedido))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-05 02:45:26 --> session_start(): Ignoring session_start() because a session is already active
+in APPPATH\Views\ultimoPedido.php on line 7.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8, 'session_start(): Ignoring session_start() because a session is already active', 'C:\\xampp\\htdocs\\proyectoDulce\\app\\Views\\ultimoPedido.php', 7)
+ 2 APPPATH\Views\ultimoPedido.php(7): session_start()
+ 3 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\proyectoDulce\\app\\Views\\ultimoPedido.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('ultimoPedido', [], true)
+ 6 APPPATH\Controllers\controladorPedido.php(62): view('ultimoPedido', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\controladorPedido->insertarPedido()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controladorPedido))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-05 02:46:15 --> Undefined array key "prvped1"
+in APPPATH\Views\verDetallePedido.php on line 7.
+ 1 APPPATH\Views\verDetallePedido.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "prvped1"', 'C:\\xampp\\htdocs\\proyectoDulce\\app\\Views\\verDetallePedido.php', 7)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\proyectoDulce\\app\\Views\\verDetallePedido.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('verDetallePedido', [], true)
+ 5 APPPATH\Controllers\controladorPedido.php(136): view('verDetallePedido', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\controladorPedido->listarProductosEnPedido()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controladorPedido))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-05 02:48:06 --> Undefined array key "prvped1"
+in APPPATH\Views\verDetallePedido.php on line 109.
+ 1 APPPATH\Views\verDetallePedido.php(109): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "prvped1"', 'C:\\xampp\\htdocs\\proyectoDulce\\app\\Views\\verDetallePedido.php', 109)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\proyectoDulce\\app\\Views\\verDetallePedido.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('verDetallePedido', [], true)
+ 5 APPPATH\Controllers\controladorPedido.php(136): view('verDetallePedido', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\controladorPedido->listarProductosEnPedido()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controladorPedido))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-05 02:48:24 --> Undefined array key "prvped1"
+in APPPATH\Views\verDetallePedido.php on line 109.
+ 1 APPPATH\Views\verDetallePedido.php(109): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "prvped1"', 'C:\\xampp\\htdocs\\proyectoDulce\\app\\Views\\verDetallePedido.php', 109)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\proyectoDulce\\app\\Views\\verDetallePedido.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('verDetallePedido', [], true)
+ 5 APPPATH\Controllers\controladorPedido.php(136): view('verDetallePedido', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\controladorPedido->listarProductosEnPedido()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controladorPedido))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-05 02:48:24 --> Undefined array key "prvped1"
+in APPPATH\Views\verDetallePedido.php on line 109.
+ 1 APPPATH\Views\verDetallePedido.php(109): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "prvped1"', 'C:\\xampp\\htdocs\\proyectoDulce\\app\\Views\\verDetallePedido.php', 109)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\proyectoDulce\\app\\Views\\verDetallePedido.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('verDetallePedido', [], true)
+ 5 APPPATH\Controllers\controladorPedido.php(136): view('verDetallePedido', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\controladorPedido->listarProductosEnPedido()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controladorPedido))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-05 02:48:26 --> Undefined array key "prvped1"
+in APPPATH\Views\verDetallePedido.php on line 109.
+ 1 APPPATH\Views\verDetallePedido.php(109): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "prvped1"', 'C:\\xampp\\htdocs\\proyectoDulce\\app\\Views\\verDetallePedido.php', 109)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\proyectoDulce\\app\\Views\\verDetallePedido.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('verDetallePedido', [], true)
+ 5 APPPATH\Controllers\controladorPedido.php(136): view('verDetallePedido', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\controladorPedido->listarProductosEnPedido()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controladorPedido))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-05 02:48:30 --> Undefined array key "prvped1"
+in APPPATH\Views\verDetallePedido.php on line 109.
+ 1 APPPATH\Views\verDetallePedido.php(109): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "prvped1"', 'C:\\xampp\\htdocs\\proyectoDulce\\app\\Views\\verDetallePedido.php', 109)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\proyectoDulce\\app\\Views\\verDetallePedido.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('verDetallePedido', [], true)
+ 5 APPPATH\Controllers\controladorPedido.php(136): view('verDetallePedido', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\controladorPedido->listarProductosEnPedido()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controladorPedido))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-05 02:49:01 --> Undefined array key "prvped1"
+in APPPATH\Views\verDetallePedido.php on line 109.
+ 1 APPPATH\Views\verDetallePedido.php(109): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "prvped1"', 'C:\\xampp\\htdocs\\proyectoDulce\\app\\Views\\verDetallePedido.php', 109)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\proyectoDulce\\app\\Views\\verDetallePedido.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('verDetallePedido', [], true)
+ 5 APPPATH\Controllers\controladorPedido.php(136): view('verDetallePedido', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\controladorPedido->listarProductosEnPedido()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controladorPedido))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-05 03:17:54 --> Undefined array key "pedid2"
+in APPPATH\Controllers\controladorPedido.php on line 186.
+ 1 APPPATH\Controllers\controladorPedido.php(186): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "pedid2"', 'C:\\xampp\\htdocs\\proyectoDulce\\app\\Controllers\\controladorPedido.php', 186)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\controladorPedido->verDetallePedido()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controladorPedido))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-05 03:25:36 --> Undefined array key "proveedorpedido"
+in APPPATH\Views\verProductosEnPedido.php on line 55.
+ 1 APPPATH\Views\verProductosEnPedido.php(55): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "proveedorpedido"', 'C:\\xampp\\htdocs\\proyectoDulce\\app\\Views\\verProductosEnPedido.php', 55)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\proyectoDulce\\app\\Views\\verProductosEnPedido.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('verProductosEnPedido', [], true)
+ 5 APPPATH\Controllers\controladorPedido.php(193): view('verProductosEnPedido', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\controladorPedido->verDetallePedido()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controladorPedido))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-05 03:26:57 --> Undefined array key "proveedorpedido"
+in APPPATH\Views\verProductosEnPedido.php on line 55.
+ 1 APPPATH\Views\verProductosEnPedido.php(55): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "proveedorpedido"', 'C:\\xampp\\htdocs\\proyectoDulce\\app\\Views\\verProductosEnPedido.php', 55)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\proyectoDulce\\app\\Views\\verProductosEnPedido.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('verProductosEnPedido', [], true)
+ 5 APPPATH\Controllers\controladorPedido.php(193): view('verProductosEnPedido', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\controladorPedido->verDetallePedido()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controladorPedido))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-05 04:30:28 --> Call to a member function isValid() on null
+in APPPATH\Controllers\controladorSubirArchivos.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\controladorSubirArchivos->process()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controladorSubirArchivos))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-05 14:04:21 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 883.
+ 1 SYSTEMPATH\Model.php(642): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(832): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\controladorPedido.php(206): CodeIgniter\Model->__call('eliminarPedido', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\controladorPedido->eliminarPedido('9')
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controladorPedido))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-05 14:05:04 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 883.
+ 1 SYSTEMPATH\Model.php(642): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(832): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\controladorPedido.php(206): CodeIgniter\Model->__call('eliminarPedido', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\controladorPedido->eliminarPedido('9')
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controladorPedido))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-05 14:56:12 --> Undefined array key "pedid"
+in APPPATH\Controllers\controladorPedido.php on line 226.
+ 1 APPPATH\Controllers\controladorPedido.php(226): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "pedid"', 'C:\\xampp\\htdocs\\proyectoDulce\\app\\Controllers\\controladorPedido.php', 226)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\controladorPedido->subirComprobanteEnPedido()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controladorPedido))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-07-05 14:57:04 --> mysqli_sql_exception: Data too long for column 'ped_comprobante' at row 1 in C:\xampp\htdocs\proyectoDulce\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\proyectoDulce\system\Database\MySQLi\Connection.php(295): mysqli->query('call UPDATE_SUB...', 0)
+#1 C:\xampp\htdocs\proyectoDulce\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('call UPDATE_SUB...')
+#2 C:\xampp\htdocs\proyectoDulce\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('call UPDATE_SUB...')
+#3 C:\xampp\htdocs\proyectoDulce\app\Models\modeloPedido.php(59): CodeIgniter\Database\BaseConnection->query('call UPDATE_SUB...')
+#4 C:\xampp\htdocs\proyectoDulce\app\Controllers\controladorPedido.php(235): App\Models\modeloPedido->subirComprobanteEnPedido(Array)
+#5 C:\xampp\htdocs\proyectoDulce\system\CodeIgniter.php(934): App\Controllers\controladorPedido->subirComprobanteEnPedido()
+#6 C:\xampp\htdocs\proyectoDulce\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controladorPedido))
+#7 C:\xampp\htdocs\proyectoDulce\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\proyectoDulce\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-07-05 14:57:04 --> Data too long for column 'ped_comprobante' at row 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('call UPDATE_SUBIRCOMPROBANTE(\'assets/file/0502070420230702 - Principios SOLID.pdf\',\'8\');', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('call UPDATE_SUBIRCOMPROBANTE(\'assets/file/0502070420230702 - Principios SOLID.pdf\',\'8\');')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('call UPDATE_SUBIRCOMPROBANTE(\'assets/file/0502070420230702 - Principios SOLID.pdf\',\'8\');')
+ 4 APPPATH\Models\modeloPedido.php(59): CodeIgniter\Database\BaseConnection->query('call UPDATE_SUBIRCOMPROBANTE(\'assets/file/0502070420230702 - Principios SOLID.pdf\',\'8\');')
+ 5 APPPATH\Controllers\controladorPedido.php(235): App\Models\modeloPedido->subirComprobanteEnPedido([...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\controladorPedido->subirComprobanteEnPedido()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controladorPedido))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-05 14:58:02 --> Undefined variable $pedidos
+in APPPATH\Views\VerPedidos.php on line 28.
+ 1 APPPATH\Views\VerPedidos.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pedidos', 'C:\\xampp\\htdocs\\proyectoDulce\\app\\Views\\VerPedidos.php', 28)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\proyectoDulce\\app\\Views\\VerPedidos.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('VerPedidos', [], true)
+ 5 APPPATH\Controllers\controladorPedido.php(238): view('VerPedidos')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\controladorPedido->subirComprobanteEnPedido()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controladorPedido))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-05 15:22:19 --> preg_match(): Compilation failed: missing closing parenthesis at offset 24
+in SYSTEMPATH\Router\Router.php on line 419.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'preg_match(): Compilation failed: missing closing parenthesis at offset 24', 'C:\\xampp\\htdocs\\proyectoDulce\\system\\Router\\Router.php', 419)
+ 2 SYSTEMPATH\Router\Router.php(419): preg_match('#^(abrirComprobante/(.*)$#u', 'abrirComprobante/1', [])
+ 3 SYSTEMPATH\Router\Router.php(182): CodeIgniter\Router\Router->checkRoutes('abrirComprobante/1')
+ 4 SYSTEMPATH\CodeIgniter.php(815): CodeIgniter\Router\Router->handle('abrirComprobante/1')
+ 5 SYSTEMPATH\CodeIgniter.php(449): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-05 15:23:18 --> preg_match(): Compilation failed: missing closing parenthesis at offset 24
+in SYSTEMPATH\Router\Router.php on line 419.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'preg_match(): Compilation failed: missing closing parenthesis at offset 24', 'C:\\xampp\\htdocs\\proyectoDulce\\system\\Router\\Router.php', 419)
+ 2 SYSTEMPATH\Router\Router.php(419): preg_match('#^(abrirComprobante/(.*)$#u', 'abrirComprobante/1', [])
+ 3 SYSTEMPATH\Router\Router.php(182): CodeIgniter\Router\Router->checkRoutes('abrirComprobante/1')
+ 4 SYSTEMPATH\CodeIgniter.php(815): CodeIgniter\Router\Router->handle('abrirComprobante/1')
+ 5 SYSTEMPATH\CodeIgniter.php(449): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-05 15:23:19 --> preg_match(): Compilation failed: missing closing parenthesis at offset 24
+in SYSTEMPATH\Router\Router.php on line 419.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'preg_match(): Compilation failed: missing closing parenthesis at offset 24', 'C:\\xampp\\htdocs\\proyectoDulce\\system\\Router\\Router.php', 419)
+ 2 SYSTEMPATH\Router\Router.php(419): preg_match('#^(abrirComprobante/(.*)$#u', 'abrirComprobante/1', [])
+ 3 SYSTEMPATH\Router\Router.php(182): CodeIgniter\Router\Router->checkRoutes('abrirComprobante/1')
+ 4 SYSTEMPATH\CodeIgniter.php(815): CodeIgniter\Router\Router->handle('abrirComprobante/1')
+ 5 SYSTEMPATH\CodeIgniter.php(449): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-05 15:24:21 --> preg_match(): Compilation failed: missing closing parenthesis at offset 24
+in SYSTEMPATH\Router\Router.php on line 419.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'preg_match(): Compilation failed: missing closing parenthesis at offset 24', 'C:\\xampp\\htdocs\\proyectoDulce\\system\\Router\\Router.php', 419)
+ 2 SYSTEMPATH\Router\Router.php(419): preg_match('#^(abrirComprobante/(.*)$#u', 'abrirComprobante/05030733ExamenParcialII', [])
+ 3 SYSTEMPATH\Router\Router.php(182): CodeIgniter\Router\Router->checkRoutes('abrirComprobante/05030733ExamenParcialII')
+ 4 SYSTEMPATH\CodeIgniter.php(815): CodeIgniter\Router\Router->handle('abrirComprobante/05030733ExamenParcialII')
+ 5 SYSTEMPATH\CodeIgniter.php(449): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-05 15:24:39 --> preg_match(): Compilation failed: missing closing parenthesis at offset 24
+in SYSTEMPATH\Router\Router.php on line 419.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'preg_match(): Compilation failed: missing closing parenthesis at offset 24', 'C:\\xampp\\htdocs\\proyectoDulce\\system\\Router\\Router.php', 419)
+ 2 SYSTEMPATH\Router\Router.php(419): preg_match('#^(abrirComprobante/(.*)$#u', 'assets/file/05030733ExamenParcialII.p´df', [])
+ 3 SYSTEMPATH\Router\Router.php(182): CodeIgniter\Router\Router->checkRoutes('assets/file/05030733ExamenParcialII.p´df')
+ 4 SYSTEMPATH\CodeIgniter.php(815): CodeIgniter\Router\Router->handle('assets/file/05030733ExamenParcialII.p´df')
+ 5 SYSTEMPATH\CodeIgniter.php(449): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-05 15:25:26 --> preg_match(): Compilation failed: missing closing parenthesis at offset 24
+in SYSTEMPATH\Router\Router.php on line 419.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'preg_match(): Compilation failed: missing closing parenthesis at offset 24', 'C:\\xampp\\htdocs\\proyectoDulce\\system\\Router\\Router.php', 419)
+ 2 SYSTEMPATH\Router\Router.php(419): preg_match('#^(abrirComprobante/(.*)$#u', 'abrirComprobante/05030733ExamenParcialII', [])
+ 3 SYSTEMPATH\Router\Router.php(182): CodeIgniter\Router\Router->checkRoutes('abrirComprobante/05030733ExamenParcialII')
+ 4 SYSTEMPATH\CodeIgniter.php(815): CodeIgniter\Router\Router->handle('abrirComprobante/05030733ExamenParcialII')
+ 5 SYSTEMPATH\CodeIgniter.php(449): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-05 15:25:27 --> preg_match(): Compilation failed: missing closing parenthesis at offset 24
+in SYSTEMPATH\Router\Router.php on line 419.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'preg_match(): Compilation failed: missing closing parenthesis at offset 24', 'C:\\xampp\\htdocs\\proyectoDulce\\system\\Router\\Router.php', 419)
+ 2 SYSTEMPATH\Router\Router.php(419): preg_match('#^(abrirComprobante/(.*)$#u', 'abrirComprobante/05030733ExamenParcialII', [])
+ 3 SYSTEMPATH\Router\Router.php(182): CodeIgniter\Router\Router->checkRoutes('abrirComprobante/05030733ExamenParcialII')
+ 4 SYSTEMPATH\CodeIgniter.php(815): CodeIgniter\Router\Router->handle('abrirComprobante/05030733ExamenParcialII')
+ 5 SYSTEMPATH\CodeIgniter.php(449): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-05 15:25:29 --> preg_match(): Compilation failed: missing closing parenthesis at offset 24
+in SYSTEMPATH\Router\Router.php on line 419.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'preg_match(): Compilation failed: missing closing parenthesis at offset 24', 'C:\\xampp\\htdocs\\proyectoDulce\\system\\Router\\Router.php', 419)
+ 2 SYSTEMPATH\Router\Router.php(419): preg_match('#^(abrirComprobante/(.*)$#u', 'abrirComprobante/1', [])
+ 3 SYSTEMPATH\Router\Router.php(182): CodeIgniter\Router\Router->checkRoutes('abrirComprobante/1')
+ 4 SYSTEMPATH\CodeIgniter.php(815): CodeIgniter\Router\Router->handle('abrirComprobante/1')
+ 5 SYSTEMPATH\CodeIgniter.php(449): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-05 15:25:29 --> preg_match(): Compilation failed: missing closing parenthesis at offset 24
+in SYSTEMPATH\Router\Router.php on line 419.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'preg_match(): Compilation failed: missing closing parenthesis at offset 24', 'C:\\xampp\\htdocs\\proyectoDulce\\system\\Router\\Router.php', 419)
+ 2 SYSTEMPATH\Router\Router.php(419): preg_match('#^(abrirComprobante/(.*)$#u', 'abrirComprobante/1', [])
+ 3 SYSTEMPATH\Router\Router.php(182): CodeIgniter\Router\Router->checkRoutes('abrirComprobante/1')
+ 4 SYSTEMPATH\CodeIgniter.php(815): CodeIgniter\Router\Router->handle('abrirComprobante/1')
+ 5 SYSTEMPATH\CodeIgniter.php(449): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-05 15:25:33 --> preg_match(): Compilation failed: missing closing parenthesis at offset 24
+in SYSTEMPATH\Router\Router.php on line 419.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'preg_match(): Compilation failed: missing closing parenthesis at offset 24', 'C:\\xampp\\htdocs\\proyectoDulce\\system\\Router\\Router.php', 419)
+ 2 SYSTEMPATH\Router\Router.php(419): preg_match('#^(abrirComprobante/(.*)$#u', 'abrirComprobante/1', [])
+ 3 SYSTEMPATH\Router\Router.php(182): CodeIgniter\Router\Router->checkRoutes('abrirComprobante/1')
+ 4 SYSTEMPATH\CodeIgniter.php(815): CodeIgniter\Router\Router->handle('abrirComprobante/1')
+ 5 SYSTEMPATH\CodeIgniter.php(449): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-05 15:27:06 --> preg_match(): Compilation failed: missing closing parenthesis at offset 24
+in SYSTEMPATH\Router\Router.php on line 419.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'preg_match(): Compilation failed: missing closing parenthesis at offset 24', 'C:\\xampp\\htdocs\\proyectoDulce\\system\\Router\\Router.php', 419)
+ 2 SYSTEMPATH\Router\Router.php(419): preg_match('#^(abrirComprobante/(.*)$#u', 'abrirComprobante/1', [])
+ 3 SYSTEMPATH\Router\Router.php(182): CodeIgniter\Router\Router->checkRoutes('abrirComprobante/1')
+ 4 SYSTEMPATH\CodeIgniter.php(815): CodeIgniter\Router\Router->handle('abrirComprobante/1')
+ 5 SYSTEMPATH\CodeIgniter.php(449): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-05 15:28:17 --> preg_match(): Compilation failed: missing closing parenthesis at offset 24
+in SYSTEMPATH\Router\Router.php on line 419.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'preg_match(): Compilation failed: missing closing parenthesis at offset 24', 'C:\\xampp\\htdocs\\proyectoDulce\\system\\Router\\Router.php', 419)
+ 2 SYSTEMPATH\Router\Router.php(419): preg_match('#^(abrirComprobante/(.*)$#u', 'abrirComprobante/1', [])
+ 3 SYSTEMPATH\Router\Router.php(182): CodeIgniter\Router\Router->checkRoutes('abrirComprobante/1')
+ 4 SYSTEMPATH\CodeIgniter.php(815): CodeIgniter\Router\Router->handle('abrirComprobante/1')
+ 5 SYSTEMPATH\CodeIgniter.php(449): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-05 15:28:17 --> preg_match(): Compilation failed: missing closing parenthesis at offset 24
+in SYSTEMPATH\Router\Router.php on line 419.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'preg_match(): Compilation failed: missing closing parenthesis at offset 24', 'C:\\xampp\\htdocs\\proyectoDulce\\system\\Router\\Router.php', 419)
+ 2 SYSTEMPATH\Router\Router.php(419): preg_match('#^(abrirComprobante/(.*)$#u', 'abrirComprobante/1', [])
+ 3 SYSTEMPATH\Router\Router.php(182): CodeIgniter\Router\Router->checkRoutes('abrirComprobante/1')
+ 4 SYSTEMPATH\CodeIgniter.php(815): CodeIgniter\Router\Router->handle('abrirComprobante/1')
+ 5 SYSTEMPATH\CodeIgniter.php(449): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-05 15:28:20 --> preg_match(): Compilation failed: missing closing parenthesis at offset 24
+in SYSTEMPATH\Router\Router.php on line 419.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'preg_match(): Compilation failed: missing closing parenthesis at offset 24', 'C:\\xampp\\htdocs\\proyectoDulce\\system\\Router\\Router.php', 419)
+ 2 SYSTEMPATH\Router\Router.php(419): preg_match('#^(abrirComprobante/(.*)$#u', 'abrirComprobante/1', [])
+ 3 SYSTEMPATH\Router\Router.php(182): CodeIgniter\Router\Router->checkRoutes('abrirComprobante/1')
+ 4 SYSTEMPATH\CodeIgniter.php(815): CodeIgniter\Router\Router->handle('abrirComprobante/1')
+ 5 SYSTEMPATH\CodeIgniter.php(449): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-05 15:28:43 --> preg_match(): Compilation failed: missing closing parenthesis at offset 24
+in SYSTEMPATH\Router\Router.php on line 419.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'preg_match(): Compilation failed: missing closing parenthesis at offset 24', 'C:\\xampp\\htdocs\\proyectoDulce\\system\\Router\\Router.php', 419)
+ 2 SYSTEMPATH\Router\Router.php(419): preg_match('#^(abrirComprobante/(.*)$#u', 'abrirComprobante/1', [])
+ 3 SYSTEMPATH\Router\Router.php(182): CodeIgniter\Router\Router->checkRoutes('abrirComprobante/1')
+ 4 SYSTEMPATH\CodeIgniter.php(815): CodeIgniter\Router\Router->handle('abrirComprobante/1')
+ 5 SYSTEMPATH\CodeIgniter.php(449): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-05 15:29:20 --> preg_match(): Compilation failed: missing closing parenthesis at offset 24
+in SYSTEMPATH\Router\Router.php on line 419.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'preg_match(): Compilation failed: missing closing parenthesis at offset 24', 'C:\\xampp\\htdocs\\proyectoDulce\\system\\Router\\Router.php', 419)
+ 2 SYSTEMPATH\Router\Router.php(419): preg_match('#^(abrirComprobante/(.*)$#u', 'abrirComprobante/1', [])
+ 3 SYSTEMPATH\Router\Router.php(182): CodeIgniter\Router\Router->checkRoutes('abrirComprobante/1')
+ 4 SYSTEMPATH\CodeIgniter.php(815): CodeIgniter\Router\Router->handle('abrirComprobante/1')
+ 5 SYSTEMPATH\CodeIgniter.php(449): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-05 15:29:25 --> preg_match(): Compilation failed: missing closing parenthesis at offset 24
+in SYSTEMPATH\Router\Router.php on line 419.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'preg_match(): Compilation failed: missing closing parenthesis at offset 24', 'C:\\xampp\\htdocs\\proyectoDulce\\system\\Router\\Router.php', 419)
+ 2 SYSTEMPATH\Router\Router.php(419): preg_match('#^(abrirComprobante/(.*)$#u', 'abrirComprobante/1', [])
+ 3 SYSTEMPATH\Router\Router.php(182): CodeIgniter\Router\Router->checkRoutes('abrirComprobante/1')
+ 4 SYSTEMPATH\CodeIgniter.php(815): CodeIgniter\Router\Router->handle('abrirComprobante/1')
+ 5 SYSTEMPATH\CodeIgniter.php(449): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-05 15:31:03 --> preg_match(): Compilation failed: missing closing parenthesis at offset 24
+in SYSTEMPATH\Router\Router.php on line 419.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'preg_match(): Compilation failed: missing closing parenthesis at offset 24', 'C:\\xampp\\htdocs\\proyectoDulce\\system\\Router\\Router.php', 419)
+ 2 SYSTEMPATH\Router\Router.php(419): preg_match('#^(abrirComprobante/(.*)$#u', 'abrirComprobante/1', [])
+ 3 SYSTEMPATH\Router\Router.php(182): CodeIgniter\Router\Router->checkRoutes('abrirComprobante/1')
+ 4 SYSTEMPATH\CodeIgniter.php(815): CodeIgniter\Router\Router->handle('abrirComprobante/1')
+ 5 SYSTEMPATH\CodeIgniter.php(449): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-05 15:31:18 --> preg_match(): Compilation failed: missing closing parenthesis at offset 24
+in SYSTEMPATH\Router\Router.php on line 419.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'preg_match(): Compilation failed: missing closing parenthesis at offset 24', 'C:\\xampp\\htdocs\\proyectoDulce\\system\\Router\\Router.php', 419)
+ 2 SYSTEMPATH\Router\Router.php(419): preg_match('#^(abrirComprobante/(.*)$#u', 'abrirComprobante/1', [])
+ 3 SYSTEMPATH\Router\Router.php(182): CodeIgniter\Router\Router->checkRoutes('abrirComprobante/1')
+ 4 SYSTEMPATH\CodeIgniter.php(815): CodeIgniter\Router\Router->handle('abrirComprobante/1')
+ 5 SYSTEMPATH\CodeIgniter.php(449): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-05 15:32:44 --> preg_match(): Compilation failed: missing closing parenthesis at offset 24
+in SYSTEMPATH\Router\Router.php on line 419.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'preg_match(): Compilation failed: missing closing parenthesis at offset 24', 'C:\\xampp\\htdocs\\proyectoDulce\\system\\Router\\Router.php', 419)
+ 2 SYSTEMPATH\Router\Router.php(419): preg_match('#^(abrirComprobante/(.*)$#u', 'abrirComprobante/1', [])
+ 3 SYSTEMPATH\Router\Router.php(182): CodeIgniter\Router\Router->checkRoutes('abrirComprobante/1')
+ 4 SYSTEMPATH\CodeIgniter.php(815): CodeIgniter\Router\Router->handle('abrirComprobante/1')
+ 5 SYSTEMPATH\CodeIgniter.php(449): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-05 15:34:31 --> preg_match(): Compilation failed: missing closing parenthesis at offset 24
+in SYSTEMPATH\Router\Router.php on line 419.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'preg_match(): Compilation failed: missing closing parenthesis at offset 24', 'C:\\xampp\\htdocs\\proyectoDulce\\system\\Router\\Router.php', 419)
+ 2 SYSTEMPATH\Router\Router.php(419): preg_match('#^(abrirComprobante/(.*)$#u', 'abrirComprobante/1', [])
+ 3 SYSTEMPATH\Router\Router.php(182): CodeIgniter\Router\Router->checkRoutes('abrirComprobante/1')
+ 4 SYSTEMPATH\CodeIgniter.php(815): CodeIgniter\Router\Router->handle('abrirComprobante/1')
+ 5 SYSTEMPATH\CodeIgniter.php(449): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-05 15:35:25 --> preg_match(): Compilation failed: missing closing parenthesis at offset 24
+in SYSTEMPATH\Router\Router.php on line 419.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'preg_match(): Compilation failed: missing closing parenthesis at offset 24', 'C:\\xampp\\htdocs\\proyectoDulce\\system\\Router\\Router.php', 419)
+ 2 SYSTEMPATH\Router\Router.php(419): preg_match('#^(abrirComprobante/(.*)$#u', 'abrirComprobante/1', [])
+ 3 SYSTEMPATH\Router\Router.php(182): CodeIgniter\Router\Router->checkRoutes('abrirComprobante/1')
+ 4 SYSTEMPATH\CodeIgniter.php(815): CodeIgniter\Router\Router->handle('abrirComprobante/1')
+ 5 SYSTEMPATH\CodeIgniter.php(449): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-05 15:36:29 --> preg_match(): Compilation failed: missing closing parenthesis at offset 24
+in SYSTEMPATH\Router\Router.php on line 419.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'preg_match(): Compilation failed: missing closing parenthesis at offset 24', 'C:\\xampp\\htdocs\\proyectoDulce\\system\\Router\\Router.php', 419)
+ 2 SYSTEMPATH\Router\Router.php(419): preg_match('#^(abrirComprobante/(.*)$#u', 'abrirComprobante/1', [])
+ 3 SYSTEMPATH\Router\Router.php(182): CodeIgniter\Router\Router->checkRoutes('abrirComprobante/1')
+ 4 SYSTEMPATH\CodeIgniter.php(815): CodeIgniter\Router\Router->handle('abrirComprobante/1')
+ 5 SYSTEMPATH\CodeIgniter.php(449): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-05 15:38:03 --> Undefined array key "ped_id"
+in APPPATH\Models\modeloPedido.php on line 64.
+ 1 APPPATH\Models\modeloPedido.php(64): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "ped_id"', 'C:\\xampp\\htdocs\\proyectoDulce\\app\\Models\\modeloPedido.php', 64)
+ 2 APPPATH\Controllers\controladorPedido.php(247): App\Models\modeloPedido->abrirComprobante([...])
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\controladorPedido->abrirComprobante('1')
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controladorPedido))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-05 15:38:06 --> Undefined array key "ped_id"
+in APPPATH\Models\modeloPedido.php on line 64.
+ 1 APPPATH\Models\modeloPedido.php(64): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "ped_id"', 'C:\\xampp\\htdocs\\proyectoDulce\\app\\Models\\modeloPedido.php', 64)
+ 2 APPPATH\Controllers\controladorPedido.php(247): App\Models\modeloPedido->abrirComprobante([...])
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\controladorPedido->abrirComprobante('1')
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controladorPedido))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-05 15:38:16 --> Cannot use object of type stdClass as array
+in APPPATH\Controllers\controladorPedido.php on line 251.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\controladorPedido->abrirComprobante('1')
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controladorPedido))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-05 15:39:15 --> Array to string conversion
+in APPPATH\Controllers\controladorPedido.php on line 254.
+ 1 APPPATH\Controllers\controladorPedido.php(254): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\xampp\\htdocs\\proyectoDulce\\app\\Controllers\\controladorPedido.php', 254)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\controladorPedido->abrirComprobante('1')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controladorPedido))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-05 15:39:31 --> Undefined array key 0
+in APPPATH\Controllers\controladorPedido.php on line 254.
+ 1 APPPATH\Controllers\controladorPedido.php(254): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'C:\\xampp\\htdocs\\proyectoDulce\\app\\Controllers\\controladorPedido.php', 254)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\controladorPedido->abrirComprobante('1')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controladorPedido))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-05 15:39:46 --> Undefined array key "ped_comprobante"
+in APPPATH\Controllers\controladorPedido.php on line 254.
+ 1 APPPATH\Controllers\controladorPedido.php(254): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "ped_comprobante"', 'C:\\xampp\\htdocs\\proyectoDulce\\app\\Controllers\\controladorPedido.php', 254)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\controladorPedido->abrirComprobante('1')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controladorPedido))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-05 15:40:19 --> Cannot use object of type stdClass as array
+in APPPATH\Controllers\controladorPedido.php on line 248.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\controladorPedido->abrirComprobante('1')
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controladorPedido))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-05 15:42:00 --> Object of class stdClass could not be converted to string
+in APPPATH\Controllers\controladorPedido.php on line 254.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\controladorPedido->abrirComprobante('1')
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controladorPedido))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-05 15:43:29 --> Undefined array key 0
+in APPPATH\Controllers\controladorPedido.php on line 254.
+ 1 APPPATH\Controllers\controladorPedido.php(254): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'C:\\xampp\\htdocs\\proyectoDulce\\app\\Controllers\\controladorPedido.php', 254)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\controladorPedido->abrirComprobante('1')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controladorPedido))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-05 15:44:46 --> Array to string conversion
+in APPPATH\Controllers\controladorPedido.php on line 253.
+ 1 APPPATH\Controllers\controladorPedido.php(253): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\xampp\\htdocs\\proyectoDulce\\app\\Controllers\\controladorPedido.php', 253)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\controladorPedido->abrirComprobante('1')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controladorPedido))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-05 15:44:47 --> Array to string conversion
+in APPPATH\Controllers\controladorPedido.php on line 253.
+ 1 APPPATH\Controllers\controladorPedido.php(253): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\xampp\\htdocs\\proyectoDulce\\app\\Controllers\\controladorPedido.php', 253)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\controladorPedido->abrirComprobante('1')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controladorPedido))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-05 15:52:29 --> Attempt to read property "ped_comprobante" on array
+in APPPATH\Controllers\controladorPedido.php on line 254.
+ 1 APPPATH\Controllers\controladorPedido.php(254): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "ped_comprobante" on array', 'C:\\xampp\\htdocs\\proyectoDulce\\app\\Controllers\\controladorPedido.php', 254)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\controladorPedido->abrirComprobante('1')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controladorPedido))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-05 15:54:03 --> Attempt to read property "ped_comprobante" on array
+in APPPATH\Controllers\controladorPedido.php on line 260.
+ 1 APPPATH\Controllers\controladorPedido.php(260): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "ped_comprobante" on array', 'C:\\xampp\\htdocs\\proyectoDulce\\app\\Controllers\\controladorPedido.php', 260)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\controladorPedido->abrirComprobante('1')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controladorPedido))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-05 15:54:42 --> Attempt to read property "ped_comprobante" on array
+in APPPATH\Controllers\controladorPedido.php on line 260.
+ 1 APPPATH\Controllers\controladorPedido.php(260): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "ped_comprobante" on array', 'C:\\xampp\\htdocs\\proyectoDulce\\app\\Controllers\\controladorPedido.php', 260)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\controladorPedido->abrirComprobante('1')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controladorPedido))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-05 15:55:25 --> Attempt to read property "ped_comprobante" on array
+in APPPATH\Controllers\controladorPedido.php on line 260.
+ 1 APPPATH\Controllers\controladorPedido.php(260): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "ped_comprobante" on array', 'C:\\xampp\\htdocs\\proyectoDulce\\app\\Controllers\\controladorPedido.php', 260)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\controladorPedido->abrirComprobante('1')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controladorPedido))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-05 15:57:10 --> Attempt to read property "ped_comprobante" on array
+in APPPATH\Controllers\controladorPedido.php on line 260.
+ 1 APPPATH\Controllers\controladorPedido.php(260): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "ped_comprobante" on array', 'C:\\xampp\\htdocs\\proyectoDulce\\app\\Controllers\\controladorPedido.php', 260)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\controladorPedido->abrirComprobante('1')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controladorPedido))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-05 15:57:53 --> Attempt to read property "ped_comprobante" on array
+in APPPATH\Controllers\controladorPedido.php on line 260.
+ 1 APPPATH\Controllers\controladorPedido.php(260): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "ped_comprobante" on array', 'C:\\xampp\\htdocs\\proyectoDulce\\app\\Controllers\\controladorPedido.php', 260)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\controladorPedido->abrirComprobante('1')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controladorPedido))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-05 15:58:15 --> Attempt to read property "ped_comprobante" on array
+in APPPATH\Controllers\controladorPedido.php on line 260.
+ 1 APPPATH\Controllers\controladorPedido.php(260): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "ped_comprobante" on array', 'C:\\xampp\\htdocs\\proyectoDulce\\app\\Controllers\\controladorPedido.php', 260)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\controladorPedido->abrirComprobante('1')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controladorPedido))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-05 15:58:24 --> Array to string conversion
+in APPPATH\Controllers\controladorPedido.php on line 263.
+ 1 APPPATH\Controllers\controladorPedido.php(263): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\xampp\\htdocs\\proyectoDulce\\app\\Controllers\\controladorPedido.php', 263)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\controladorPedido->abrirComprobante('1')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controladorPedido))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-05 15:58:36 --> Array to string conversion
+in APPPATH\Controllers\controladorPedido.php on line 263.
+ 1 APPPATH\Controllers\controladorPedido.php(263): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\xampp\\htdocs\\proyectoDulce\\app\\Controllers\\controladorPedido.php', 263)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\controladorPedido->abrirComprobante('1')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controladorPedido))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-05 16:18:18 --> Unclosed '{' on line 16
+in APPPATH\Controllers\controladorPedido.php on line 252.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\proyectoDulce\\app\\Controllers\\controladorPedido.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\controladorPedido')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\controladorPedido')
+ 4 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\controladorPedido', true)
+ 5 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-05 16:18:19 --> Unclosed '{' on line 16
+in APPPATH\Controllers\controladorPedido.php on line 252.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\proyectoDulce\\app\\Controllers\\controladorPedido.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\controladorPedido')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\controladorPedido')
+ 4 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\controladorPedido', true)
+ 5 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-05 17:31:56 --> Undefined property: stdClass::$ped_comprobante
+in APPPATH\Views\VerPedidos.php on line 40.
+ 1 APPPATH\Views\VerPedidos.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$ped_comprobante', 'C:\\xampp\\htdocs\\proyectoDulce\\app\\Views\\VerPedidos.php', 40)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\proyectoDulce\\app\\Views\\VerPedidos.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('VerPedidos', [], true)
+ 5 APPPATH\Controllers\controladorPedido.php(30): view('VerPedidos', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\controladorPedido->listarPedidos()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controladorPedido))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-07-05 17:33:18 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`bdd_inventec`.`tbl_producto`, CONSTRAINT `ctgid` FOREIGN KEY (`ctg_id`) REFERENCES `tbl_categoria` (`ctg_id`)) in C:\xampp\htdocs\proyectoDulce\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\proyectoDulce\system\Database\MySQLi\Connection.php(295): mysqli->query('call INSERT_PRO...', 0)
+#1 C:\xampp\htdocs\proyectoDulce\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('call INSERT_PRO...')
+#2 C:\xampp\htdocs\proyectoDulce\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('call INSERT_PRO...')
+#3 C:\xampp\htdocs\proyectoDulce\app\Models\modeloProducto.php(13): CodeIgniter\Database\BaseConnection->query('call INSERT_PRO...')
+#4 C:\xampp\htdocs\proyectoDulce\app\Controllers\controladorProducto.php(57): App\Models\modeloProducto->insertarProducto(Array)
+#5 C:\xampp\htdocs\proyectoDulce\system\CodeIgniter.php(934): App\Controllers\controladorProducto->insertarProducto()
+#6 C:\xampp\htdocs\proyectoDulce\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controladorProducto))
+#7 C:\xampp\htdocs\proyectoDulce\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\proyectoDulce\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-07-05 17:33:18 --> Cannot add or update a child row: a foreign key constraint fails (`bdd_inventec`.`tbl_producto`, CONSTRAINT `ctgid` FOREIGN KEY (`ctg_id`) REFERENCES `tbl_categoria` (`ctg_id`))
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('call INSERT_PRODUCTO(\'carne\',\'10\',\'10\',\' 1\',\'dgfgfddg\',\'3\');', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('call INSERT_PRODUCTO(\'carne\',\'10\',\'10\',\' 1\',\'dgfgfddg\',\'3\');')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('call INSERT_PRODUCTO(\'carne\',\'10\',\'10\',\' 1\',\'dgfgfddg\',\'3\');')
+ 4 APPPATH\Models\modeloProducto.php(13): CodeIgniter\Database\BaseConnection->query('call INSERT_PRODUCTO(\'carne\',\'10\',\'10\',\' 1\',\'dgfgfddg\',\'3\');')
+ 5 APPPATH\Controllers\controladorProducto.php(57): App\Models\modeloProducto->insertarProducto([...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\controladorProducto->insertarProducto()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controladorProducto))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-05 17:35:09 --> Undefined property: stdClass::$ped_comprobante
+in APPPATH\Views\VerPedidos.php on line 40.
+ 1 APPPATH\Views\VerPedidos.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$ped_comprobante', 'C:\\xampp\\htdocs\\proyectoDulce\\app\\Views\\VerPedidos.php', 40)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\proyectoDulce\\app\\Views\\VerPedidos.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('VerPedidos', [], true)
+ 5 APPPATH\Controllers\controladorPedido.php(30): view('VerPedidos', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\controladorPedido->listarPedidos()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controladorPedido))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-05 19:38:57 --> Undefined array key "proveedorpedido"
+in APPPATH\Controllers\ControladorPDF.php on line 15.
+ 1 APPPATH\Controllers\ControladorPDF.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "proveedorpedido"', 'C:\\xampp\\htdocs\\proyectoDulce\\app\\Controllers\\ControladorPDF.php', 15)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\controladorPDF->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controladorPDF))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-05 19:49:22 --> Undefined property: stdClass::$prv_correo
+in APPPATH\Views\EnviarCorreo.php on line 16.
+ 1 APPPATH\Views\EnviarCorreo.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$prv_correo', 'C:\\xampp\\htdocs\\proyectoDulce\\app\\Views\\EnviarCorreo.php', 16)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\proyectoDulce\\app\\Views\\EnviarCorreo.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('EnviarCorreo', [], true)
+ 5 APPPATH\Controllers\ControladorCorreo.php(21): view('EnviarCorreo', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ControladorCorreo->enviarCorreo()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControladorCorreo))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-05 20:15:16 --> Undefined property: stdClass::$ped_comprobante
+in APPPATH\Views\VerPedidos.php on line 40.
+ 1 APPPATH\Views\VerPedidos.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$ped_comprobante', 'C:\\xampp\\htdocs\\INVENTEC\\app\\Views\\VerPedidos.php', 40)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\INVENTEC\\app\\Views\\VerPedidos.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('VerPedidos', [], true)
+ 5 APPPATH\Controllers\ControladorPedido.php(30): view('VerPedidos', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ControladorPedido->listarPedidos()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControladorPedido))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-05 20:17:54 --> Undefined property: stdClass::$ped_comprobante
+in APPPATH\Views\VerPedidos.php on line 40.
+ 1 APPPATH\Views\VerPedidos.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$ped_comprobante', 'C:\\xampp\\htdocs\\INVENTEC\\app\\Views\\VerPedidos.php', 40)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\INVENTEC\\app\\Views\\VerPedidos.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('VerPedidos', [], true)
+ 5 APPPATH\Controllers\ControladorPedido.php(30): view('VerPedidos', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ControladorPedido->listarPedidos()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControladorPedido))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-05 20:18:51 --> Undefined property: stdClass::$ped_comprobante
+in APPPATH\Views\VerPedidos.php on line 40.
+ 1 APPPATH\Views\VerPedidos.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$ped_comprobante', 'C:\\xampp\\htdocs\\INVENTEC\\app\\Views\\VerPedidos.php', 40)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\INVENTEC\\app\\Views\\VerPedidos.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('VerPedidos', [], true)
+ 5 APPPATH\Controllers\ControladorPedido.php(30): view('VerPedidos', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ControladorPedido->listarPedidos()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControladorPedido))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-05 20:18:54 --> Undefined property: stdClass::$ped_comprobante
+in APPPATH\Views\VerPedidos.php on line 40.
+ 1 APPPATH\Views\VerPedidos.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$ped_comprobante', 'C:\\xampp\\htdocs\\INVENTEC\\app\\Views\\VerPedidos.php', 40)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\INVENTEC\\app\\Views\\VerPedidos.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('VerPedidos', [], true)
+ 5 APPPATH\Controllers\ControladorPedido.php(30): view('VerPedidos', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ControladorPedido->listarPedidos()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControladorPedido))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-05 20:22:09 --> Undefined property: stdClass::$ped_comprobante
+in APPPATH\Views\VerPedidos.php on line 40.
+ 1 APPPATH\Views\VerPedidos.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$ped_comprobante', 'C:\\xampp\\htdocs\\INVENTEC\\app\\Views\\VerPedidos.php', 40)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\INVENTEC\\app\\Views\\VerPedidos.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('VerPedidos', [], true)
+ 5 APPPATH\Controllers\ControladorPedido.php(30): view('VerPedidos', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ControladorPedido->listarPedidos()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControladorPedido))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-05 20:22:24 --> Undefined property: stdClass::$ped_comprobante
+in APPPATH\Views\VerPedidos.php on line 40.
+ 1 APPPATH\Views\VerPedidos.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$ped_comprobante', 'C:\\xampp\\htdocs\\INVENTEC\\app\\Views\\VerPedidos.php', 40)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\INVENTEC\\app\\Views\\VerPedidos.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('VerPedidos', [], true)
+ 5 APPPATH\Controllers\ControladorPedido.php(30): view('VerPedidos', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ControladorPedido->listarPedidos()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControladorPedido))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-05 20:22:54 --> Undefined property: stdClass::$ped_comprobante
+in APPPATH\Views\VerPedidos.php on line 40.
+ 1 APPPATH\Views\VerPedidos.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$ped_comprobante', 'C:\\xampp\\htdocs\\INVENTEC\\app\\Views\\VerPedidos.php', 40)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\INVENTEC\\app\\Views\\VerPedidos.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('VerPedidos', [], true)
+ 5 APPPATH\Controllers\ControladorPedido.php(30): view('VerPedidos', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ControladorPedido->listarPedidos()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControladorPedido))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

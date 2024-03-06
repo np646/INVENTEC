@@ -1,0 +1,149 @@
+CRITICAL - 2023-07-01 00:00:52 --> Array to string conversion
+in APPPATH\Models\modeloProveedor.php on line 29.
+ 1 APPPATH\Models\modeloProveedor.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\xampp\\htdocs\\proyectoDulce\\app\\Models\\modeloProveedor.php', 29)
+ 2 APPPATH\Controllers\controladorProveedor.php(59): App\Models\modeloProveedor->modificarProveedor([...], [...])
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\controladorProveedor->modificarProveedor()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controladorProveedor))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-01 00:02:17 --> Undefined variable $proveedores
+in APPPATH\Views\verProveedores.php on line 21.
+ 1 APPPATH\Views\verProveedores.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $proveedores', 'C:\\xampp\\htdocs\\proyectoDulce\\app\\Views\\verProveedores.php', 21)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\proyectoDulce\\app\\Views\\verProveedores.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('verProveedores', [], true)
+ 5 APPPATH\Controllers\controladorProveedor.php(60): view('verProveedores')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\controladorProveedor->modificarProveedor()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controladorProveedor))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-07-01 00:09:37 --> mysqli_sql_exception: Table 'bdd_inventec.tbl_itemscat' doesn't exist in C:\xampp\htdocs\proyectoDulce\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\proyectoDulce\system\Database\MySQLi\Connection.php(295): mysqli->query('DELETE FROM `tb...', 0)
+#1 C:\xampp\htdocs\proyectoDulce\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `tb...')
+#2 C:\xampp\htdocs\proyectoDulce\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `tb...')
+#3 C:\xampp\htdocs\proyectoDulce\system\Database\BaseBuilder.php(2791): CodeIgniter\Database\BaseConnection->query('DELETE FROM `tb...', Array, false)
+#4 C:\xampp\htdocs\proyectoDulce\app\Models\modeloMenu.php(55): CodeIgniter\Database\BaseBuilder->delete()
+#5 C:\xampp\htdocs\proyectoDulce\app\Controllers\controladorMenu.php(88): App\Models\modeloMenu->eliminarProducto(Array)
+#6 C:\xampp\htdocs\proyectoDulce\system\CodeIgniter.php(934): App\Controllers\controladorMenu->eliminarProducto('7')
+#7 C:\xampp\htdocs\proyectoDulce\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controladorMenu))
+#8 C:\xampp\htdocs\proyectoDulce\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\proyectoDulce\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-07-01 00:09:37 --> Table 'bdd_inventec.tbl_itemscat' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('DELETE FROM `tbl_itemscat`
+WHERE `itc_id` = \'7\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `tbl_itemscat`
+WHERE `itc_id` = \'7\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `tbl_itemscat`
+WHERE `itc_id` = \'7\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2791): CodeIgniter\Database\BaseConnection->query('DELETE FROM `tbl_itemscat`
+WHERE `itc_id` = :itc_id:', [...], false)
+ 5 APPPATH\Models\modeloMenu.php(55): CodeIgniter\Database\BaseBuilder->delete()
+ 6 APPPATH\Controllers\controladorMenu.php(88): App\Models\modeloMenu->eliminarProducto([...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\controladorMenu->eliminarProducto('7')
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controladorMenu))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-01 00:28:02 --> Invalid file: "RealizarPedido.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('RealizarPedido.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('RealizarPedido', [], true)
+ 3 APPPATH\Controllers\controladorProveedor.php(17): view('RealizarPedido')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\controladorProveedor->realizarPedido()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controladorProveedor))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-01 00:45:38 --> Undefined constant "prv_id"
+in APPPATH\Views\Pedido.php on line 43.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('Pedido', [], true)
+ 4 APPPATH\Controllers\controladorPedido.php(18): view('Pedido')
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\controladorPedido->Pedido()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controladorPedido))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-01 01:30:03 --> syntax error, unexpected token "}", expecting ";"
+in APPPATH\Controllers\controladorProveedor.php on line 29.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\proyectoDulce\\app\\Controllers\\controladorProveedor.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\controladorProveedor')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\controladorProveedor')
+ 4 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\controladorProveedor', true)
+ 5 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-01 03:50:26 --> Undefined array key "pro_id"
+in APPPATH\Models\modeloProducto.php on line 24.
+ 1 APPPATH\Models\modeloProducto.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "pro_id"', 'C:\\xampp\\htdocs\\proyectoDulce\\app\\Models\\modeloProducto.php', 24)
+ 2 APPPATH\Controllers\controladorProducto.php(63): App\Models\modeloProducto->modificarProducto([...], [...])
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\controladorProducto->modificarProducto()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controladorProducto))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-07-01 03:51:13 --> mysqli_sql_exception: Incorrect number of arguments for PROCEDURE bdd_inventec.UPDATE_PRODUCTO; expected 5, got 7 in C:\xampp\htdocs\proyectoDulce\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\proyectoDulce\system\Database\MySQLi\Connection.php(295): mysqli->query('call UPDATE_PRO...', 0)
+#1 C:\xampp\htdocs\proyectoDulce\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('call UPDATE_PRO...')
+#2 C:\xampp\htdocs\proyectoDulce\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('call UPDATE_PRO...')
+#3 C:\xampp\htdocs\proyectoDulce\app\Models\modeloProducto.php(24): CodeIgniter\Database\BaseConnection->query('call UPDATE_PRO...')
+#4 C:\xampp\htdocs\proyectoDulce\app\Controllers\controladorProducto.php(63): App\Models\modeloProducto->modificarProducto(Array, Array)
+#5 C:\xampp\htdocs\proyectoDulce\system\CodeIgniter.php(934): App\Controllers\controladorProducto->modificarProducto()
+#6 C:\xampp\htdocs\proyectoDulce\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controladorProducto))
+#7 C:\xampp\htdocs\proyectoDulce\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\proyectoDulce\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-07-01 03:51:13 --> Incorrect number of arguments for PROCEDURE bdd_inventec.UPDATE_PRODUCTO; expected 5, got 7
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('call UPDATE_PRODUCTO(\'1\',\'Jabon Dove\',\'11\',\'2.5\',\'\',\'ABC123\',\'\');', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('call UPDATE_PRODUCTO(\'1\',\'Jabon Dove\',\'11\',\'2.5\',\'\',\'ABC123\',\'\');')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('call UPDATE_PRODUCTO(\'1\',\'Jabon Dove\',\'11\',\'2.5\',\'\',\'ABC123\',\'\');')
+ 4 APPPATH\Models\modeloProducto.php(24): CodeIgniter\Database\BaseConnection->query('call UPDATE_PRODUCTO(\'1\',\'Jabon Dove\',\'11\',\'2.5\',\'\',\'ABC123\',\'\');')
+ 5 APPPATH\Controllers\controladorProducto.php(63): App\Models\modeloProducto->modificarProducto([...], [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\controladorProducto->modificarProducto()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controladorProducto))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-01 04:05:12 --> Undefined variable $category
+in APPPATH\Views\Pedido.php on line 36.
+ 1 APPPATH\Views\Pedido.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $category', 'C:\\xampp\\htdocs\\proyectoDulce\\app\\Views\\Pedido.php', 36)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\proyectoDulce\\app\\Views\\Pedido.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('Pedido', [], true)
+ 5 APPPATH\Controllers\controladorPedido.php(18): view('Pedido')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\controladorPedido->Pedido()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controladorPedido))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-01 04:14:10 --> Cannot use object of type stdClass as array
+in APPPATH\Views\Pedido.php on line 15.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('Pedido', [], true)
+ 4 APPPATH\Controllers\controladorProveedor.php(19): view('Pedido', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\controladorProveedor->listarProveedores2()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controladorProveedor))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-01 04:15:51 --> Cannot use object of type stdClass as array
+in APPPATH\Views\Pedido.php on line 15.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('Pedido', [], true)
+ 4 APPPATH\Controllers\controladorProveedor.php(19): view('Pedido', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\controladorProveedor->listarProveedores2()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controladorProveedor))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-01 04:28:07 --> Undefined array key "prv_nombre"
+in APPPATH\Views\Pedido.php on line 15.
+ 1 APPPATH\Views\Pedido.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "prv_nombre"', 'C:\\xampp\\htdocs\\proyectoDulce\\app\\Views\\Pedido.php', 15)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\proyectoDulce\\app\\Views\\Pedido.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('Pedido', [], true)
+ 5 APPPATH\Controllers\controladorProveedor.php(19): view('Pedido', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\controladorProveedor->listarProveedores2()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controladorProveedor))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

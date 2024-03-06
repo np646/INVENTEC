@@ -1,0 +1,179 @@
+CRITICAL - 2023-06-27 00:06:08 --> Undefined array key "ped_id"
+in APPPATH\Views\pedido.php on line 33.
+ 1 APPPATH\Views\pedido.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "ped_id"', 'C:\\xampp\\htdocs\\proyectoDulce\\app\\Views\\pedido.php', 33)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\proyectoDulce\\app\\Views\\pedido.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('pedido', [], true)
+ 5 APPPATH\Controllers\controladorPedido.php(30): view('pedido', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\controladorPedido->crearPedido()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controladorPedido))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-27 00:06:37 --> Undefined array key "ped_id"
+in APPPATH\Views\pedido.php on line 33.
+ 1 APPPATH\Views\pedido.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "ped_id"', 'C:\\xampp\\htdocs\\proyectoDulce\\app\\Views\\pedido.php', 33)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\proyectoDulce\\app\\Views\\pedido.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('pedido', [], true)
+ 5 APPPATH\Controllers\controladorPedido.php(30): view('pedido', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\controladorPedido->crearPedido()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controladorPedido))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-27 00:07:38 --> Undefined array key "ped_id"
+in APPPATH\Views\pedido.php on line 33.
+ 1 APPPATH\Views\pedido.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "ped_id"', 'C:\\xampp\\htdocs\\proyectoDulce\\app\\Views\\pedido.php', 33)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\proyectoDulce\\app\\Views\\pedido.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('pedido', [], true)
+ 5 APPPATH\Controllers\controladorPedido.php(30): view('pedido', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\controladorPedido->crearPedido()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controladorPedido))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-27 00:22:09 --> Undefined variable $resp
+in APPPATH\Views\pedido.php on line 5.
+ 1 APPPATH\Views\pedido.php(5): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $resp', 'C:\\xampp\\htdocs\\proyectoDulce\\app\\Views\\pedido.php', 5)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\proyectoDulce\\app\\Views\\pedido.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('pedido', [], true)
+ 5 APPPATH\Controllers\controladorPedido.php(30): view('pedido', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\controladorPedido->crearPedido()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controladorPedido))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-27 00:26:25 --> Cannot use object of type stdClass as array
+in APPPATH\Views\pedido.php on line 2.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('pedido', [], true)
+ 4 APPPATH\Controllers\controladorPedido.php(30): view('pedido', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\controladorPedido->crearPedido()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controladorPedido))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-27 02:58:35 --> Undefined variable $data
+in APPPATH\Views\pedido.php on line 10.
+ 1 APPPATH\Views\pedido.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\xampp\\htdocs\\proyectoDulce\\app\\Views\\pedido.php', 10)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\proyectoDulce\\app\\Views\\pedido.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('pedido', [...], true)
+ 5 APPPATH\Controllers\controladorPedido.php(42): view('pedido', [...], [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\controladorPedido->crearPedido()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controladorPedido))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-27 02:59:40 --> Undefined variable $datosA
+in APPPATH\Views\pedido.php on line 10.
+ 1 APPPATH\Views\pedido.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $datosA', 'C:\\xampp\\htdocs\\proyectoDulce\\app\\Views\\pedido.php', 10)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\proyectoDulce\\app\\Views\\pedido.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('pedido', [...], true)
+ 5 APPPATH\Controllers\controladorPedido.php(42): view('pedido', [...], [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\controladorPedido->crearPedido()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controladorPedido))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-27 03:01:48 --> Undefined variable $datosP
+in APPPATH\Views\pedido.php on line 118.
+ 1 APPPATH\Views\pedido.php(118): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $datosP', 'C:\\xampp\\htdocs\\proyectoDulce\\app\\Views\\pedido.php', 118)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\proyectoDulce\\app\\Views\\pedido.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('pedido', [], true)
+ 5 APPPATH\Controllers\controladorPedido.php(38): view('pedido', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\controladorPedido->crearPedido()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controladorPedido))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-27 03:03:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-27 03:03:44 --> Attempt to read property "itc_nombre" on array
+in APPPATH\Views\menu.php on line 106.
+ 1 APPPATH\Views\menu.php(106): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "itc_nombre" on array', 'C:\\xampp\\htdocs\\proyectoDulce\\app\\Views\\menu.php', 106)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\proyectoDulce\\app\\Views\\menu.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('menu', [], true)
+ 5 APPPATH\Controllers\controladorMenu.php(41): view('menu', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\controladorMenu->menu()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controladorMenu))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-27 03:03:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-27 03:05:15 --> Undefined variable $datoAlitas
+in APPPATH\Views\pedido.php on line 10.
+ 1 APPPATH\Views\pedido.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $datoAlitas', 'C:\\xampp\\htdocs\\proyectoDulce\\app\\Views\\pedido.php', 10)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\proyectoDulce\\app\\Views\\pedido.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('pedido', [], true)
+ 5 APPPATH\Controllers\controladorPedido.php(38): view('pedido', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\controladorPedido->crearPedido()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controladorPedido))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-27 03:05:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-27 03:05:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-27 03:05:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-27 03:11:03 --> Undefined variable $datosP
+in APPPATH\Views\pedido.php on line 91.
+ 1 APPPATH\Views\pedido.php(91): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $datosP', 'C:\\xampp\\htdocs\\proyectoDulce\\app\\Views\\pedido.php', 91)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\proyectoDulce\\app\\Views\\pedido.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('pedido', [], true)
+ 5 APPPATH\Controllers\controladorPedido.php(38): view('pedido', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\controladorPedido->crearPedido()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controladorPedido))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-27 03:15:40 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 883.
+ 1 SYSTEMPATH\Model.php(642): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(832): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\controladorPedido.php(31): CodeIgniter\Model->__call('listarHamburguesa', [])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\controladorPedido->crearPedido()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controladorPedido))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-27 03:16:02 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 883.
+ 1 SYSTEMPATH\Model.php(642): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(832): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\controladorPedido.php(31): CodeIgniter\Model->__call('listarHamburguesa', [])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\controladorPedido->crearPedido()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controladorPedido))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-27 03:16:23 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 883.
+ 1 SYSTEMPATH\Model.php(642): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(832): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\controladorPedido.php(31): CodeIgniter\Model->__call('listarHamburguesa', [])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\controladorPedido->crearPedido()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controladorPedido))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-27 03:16:46 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 883.
+ 1 SYSTEMPATH\Model.php(642): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(832): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\controladorPedido.php(31): CodeIgniter\Model->__call('listarHamburguesa', [])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\controladorPedido->crearPedido()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controladorPedido))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-27 03:16:54 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 883.
+ 1 SYSTEMPATH\Model.php(642): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(832): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\controladorPedido.php(31): CodeIgniter\Model->__call('listarHamburguesa', [])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\controladorPedido->crearPedido()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controladorPedido))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-27 03:17:00 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 883.
+ 1 SYSTEMPATH\Model.php(642): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(832): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\controladorPedido.php(31): CodeIgniter\Model->__call('listarHamburguesa', [])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\controladorPedido->crearPedido()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controladorPedido))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

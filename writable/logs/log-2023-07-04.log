@@ -1,0 +1,717 @@
+CRITICAL - 2023-07-04 01:06:58 --> Undefined variable $proveedores
+in APPPATH\Views\ultimoPedido.php on line 2.
+ 1 APPPATH\Views\ultimoPedido.php(2): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $proveedores', 'C:\\xampp\\htdocs\\proyectoDulce\\app\\Views\\ultimoPedido.php', 2)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\proyectoDulce\\app\\Views\\ultimoPedido.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('ultimoPedido', [], true)
+ 5 APPPATH\Controllers\controladorPedido.php(77): view('ultimoPedido', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\controladorPedido->ultimoPedido()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controladorPedido))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-04 01:08:22 --> Undefined variable $productos
+in APPPATH\Views\ultimoPedido.php on line 1.
+ 1 APPPATH\Views\ultimoPedido.php(1): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $productos', 'C:\\xampp\\htdocs\\proyectoDulce\\app\\Views\\ultimoPedido.php', 1)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\proyectoDulce\\app\\Views\\ultimoPedido.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('ultimoPedido', [], true)
+ 5 APPPATH\Controllers\controladorPedido.php(77): view('ultimoPedido', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\controladorPedido->ultimoPedido()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controladorPedido))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-04 01:08:37 --> Undefined variable $productos
+in APPPATH\Views\ultimoPedido.php on line 1.
+ 1 APPPATH\Views\ultimoPedido.php(1): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $productos', 'C:\\xampp\\htdocs\\proyectoDulce\\app\\Views\\ultimoPedido.php', 1)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\proyectoDulce\\app\\Views\\ultimoPedido.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('ultimoPedido', [], true)
+ 5 APPPATH\Controllers\controladorPedido.php(77): view('ultimoPedido', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\controladorPedido->ultimoPedido()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controladorPedido))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-04 01:09:39 --> Undefined variable $productos
+in APPPATH\Views\ultimoPedido.php on line 1.
+ 1 APPPATH\Views\ultimoPedido.php(1): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $productos', 'C:\\xampp\\htdocs\\proyectoDulce\\app\\Views\\ultimoPedido.php', 1)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\proyectoDulce\\app\\Views\\ultimoPedido.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('ultimoPedido', [], true)
+ 5 APPPATH\Controllers\controladorPedido.php(77): view('ultimoPedido', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\controladorPedido->ultimoPedido()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controladorPedido))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-04 01:10:12 --> Undefined variable $productos
+in APPPATH\Views\ultimoPedido.php on line 1.
+ 1 APPPATH\Views\ultimoPedido.php(1): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $productos', 'C:\\xampp\\htdocs\\proyectoDulce\\app\\Views\\ultimoPedido.php', 1)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\proyectoDulce\\app\\Views\\ultimoPedido.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('ultimoPedido', [], true)
+ 5 APPPATH\Controllers\controladorPedido.php(77): view('ultimoPedido', [])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\controladorPedido->ultimoPedido()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controladorPedido))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-04 01:10:21 --> Undefined variable $productos
+in APPPATH\Views\ultimoPedido.php on line 1.
+ 1 APPPATH\Views\ultimoPedido.php(1): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $productos', 'C:\\xampp\\htdocs\\proyectoDulce\\app\\Views\\ultimoPedido.php', 1)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\proyectoDulce\\app\\Views\\ultimoPedido.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('ultimoPedido', [], true)
+ 5 APPPATH\Controllers\controladorPedido.php(77): view('ultimoPedido', [])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\controladorPedido->ultimoPedido()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controladorPedido))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-04 01:13:11 --> Undefined variable $ultimopedido
+in APPPATH\Views\ultimoPedido.php on line 1.
+ 1 APPPATH\Views\ultimoPedido.php(1): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $ultimopedido', 'C:\\xampp\\htdocs\\proyectoDulce\\app\\Views\\ultimoPedido.php', 1)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\proyectoDulce\\app\\Views\\ultimoPedido.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('ultimoPedido', [], true)
+ 5 APPPATH\Controllers\controladorPedido.php(77): view('ultimoPedido', [])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\controladorPedido->ultimoPedido()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controladorPedido))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-04 01:24:17 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 883.
+ 1 SYSTEMPATH\Model.php(642): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(832): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\controladorPedido.php(33): CodeIgniter\Model->__call('insertarNuevoPedido', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\controladorPedido->insertarPedido()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controladorPedido))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-04 01:25:54 --> Undefined array key "ped_id"
+in APPPATH\Models\modeloPedido.php on line 13.
+ 1 APPPATH\Models\modeloPedido.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "ped_id"', 'C:\\xampp\\htdocs\\proyectoDulce\\app\\Models\\modeloPedido.php', 13)
+ 2 APPPATH\Controllers\controladorPedido.php(33): App\Models\modeloPedido->insertarNuevoPedido([...])
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\controladorPedido->insertarPedido()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controladorPedido))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-04 01:26:19 --> Too few arguments to function App\Controllers\controladorProducto::verProductosPorProveedor(), 0 passed and exactly 1 expected
+in APPPATH\Controllers\controladorProducto.php on line 111.
+ 1 [internal function]: App\Controllers\controladorProducto->verProductosPorProveedor()
+ 2 APPPATH\Controllers\controladorPedido.php(39): call_user_func_array([...], [])
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\controladorPedido->insertarPedido()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controladorPedido))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-04 01:29:40 --> Too few arguments to function App\Controllers\controladorProducto::verProductosPorProveedor(), 0 passed and exactly 1 expected
+in APPPATH\Controllers\controladorProducto.php on line 111.
+ 1 [internal function]: App\Controllers\controladorProducto->verProductosPorProveedor()
+ 2 APPPATH\Controllers\controladorPedido.php(39): call_user_func_array([...], [])
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\controladorPedido->insertarPedido()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controladorPedido))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-04 01:34:43 --> Unknown named parameter $prv_id
+in APPPATH\Controllers\controladorPedido.php on line 39.
+ 1 APPPATH\Controllers\controladorPedido.php(39): call_user_func_array([...], [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\controladorPedido->insertarPedido()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controladorPedido))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-04 01:36:58 --> Unknown named parameter $prv_id
+in APPPATH\Controllers\controladorPedido.php on line 39.
+ 1 APPPATH\Controllers\controladorPedido.php(39): call_user_func_array([...], [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\controladorPedido->insertarPedido()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controladorPedido))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-04 01:40:39 --> Unknown named parameter $prv_id
+in APPPATH\Controllers\controladorPedido.php on line 39.
+ 1 APPPATH\Controllers\controladorPedido.php(39): call_user_func_array([...], [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\controladorPedido->insertarPedido()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controladorPedido))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-04 01:43:56 --> Undefined variable $ultimopedido
+in APPPATH\Views\ultimoPedido.php on line 4.
+ 1 APPPATH\Views\ultimoPedido.php(4): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $ultimopedido', 'C:\\xampp\\htdocs\\proyectoDulce\\app\\Views\\ultimoPedido.php', 4)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\proyectoDulce\\app\\Views\\ultimoPedido.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('ultimoPedido', [], true)
+ 5 APPPATH\Controllers\controladorPedido.php(41): view('ultimoPedido', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\controladorPedido->insertarPedido()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controladorPedido))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-07-04 01:48:04 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '')' at line 1 in C:\xampp\htdocs\proyectoDulce\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\proyectoDulce\system\Database\MySQLi\Connection.php(295): mysqli->query('call INSERT_PED...', 0)
+#1 C:\xampp\htdocs\proyectoDulce\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('call INSERT_PED...')
+#2 C:\xampp\htdocs\proyectoDulce\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('call INSERT_PED...')
+#3 C:\xampp\htdocs\proyectoDulce\app\Models\modeloPedido.php(13): CodeIgniter\Database\BaseConnection->query('call INSERT_PED...')
+#4 C:\xampp\htdocs\proyectoDulce\app\Controllers\controladorPedido.php(33): App\Models\modeloPedido->insertarNuevoPedido(Array)
+#5 C:\xampp\htdocs\proyectoDulce\system\CodeIgniter.php(934): App\Controllers\controladorPedido->insertarPedido()
+#6 C:\xampp\htdocs\proyectoDulce\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controladorPedido))
+#7 C:\xampp\htdocs\proyectoDulce\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\proyectoDulce\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-07-04 01:48:04 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '')' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('call INSERT_PEDIDO(\'05/07/2023\', 1\');', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('call INSERT_PEDIDO(\'05/07/2023\', 1\');')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('call INSERT_PEDIDO(\'05/07/2023\', 1\');')
+ 4 APPPATH\Models\modeloPedido.php(13): CodeIgniter\Database\BaseConnection->query('call INSERT_PEDIDO(\'05/07/2023\', 1\');')
+ 5 APPPATH\Controllers\controladorPedido.php(33): App\Models\modeloPedido->insertarNuevoPedido([...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\controladorPedido->insertarPedido()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controladorPedido))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-04 01:50:01 --> Unknown named parameter $prv_id
+in APPPATH\Controllers\controladorPedido.php on line 43.
+ 1 APPPATH\Controllers\controladorPedido.php(43): call_user_func_array([...], [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\controladorPedido->insertarPedido()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controladorPedido))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-04 01:51:14 --> Unknown named parameter $prv_id
+in APPPATH\Controllers\controladorPedido.php on line 43.
+ 1 APPPATH\Controllers\controladorPedido.php(43): call_user_func_array([...], [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\controladorPedido->insertarPedido()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controladorPedido))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-04 01:51:22 --> Unknown named parameter $prv_id
+in APPPATH\Controllers\controladorPedido.php on line 43.
+ 1 APPPATH\Controllers\controladorPedido.php(43): call_user_func_array([...], [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\controladorPedido->insertarPedido()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controladorPedido))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-04 01:54:18 --> Unknown named parameter $prv_id
+in APPPATH\Controllers\controladorPedido.php on line 43.
+ 1 APPPATH\Controllers\controladorPedido.php(43): call_user_func_array([...], [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\controladorPedido->insertarPedido()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controladorPedido))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-04 01:56:02 --> Array to string conversion
+in APPPATH\Models\modeloProducto.php on line 42.
+ 1 APPPATH\Models\modeloProducto.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\xampp\\htdocs\\proyectoDulce\\app\\Models\\modeloProducto.php', 42)
+ 2 APPPATH\Controllers\controladorProducto.php(118): App\Models\modeloProducto->listarProductosPorProveedor([...])
+ 3 APPPATH\Controllers\controladorPedido.php(42): App\Controllers\controladorProducto->verProductosPorProveedor([...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\controladorPedido->insertarPedido()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controladorPedido))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-04 01:56:02 --> Array to string conversion
+in APPPATH\Models\modeloProducto.php on line 42.
+ 1 APPPATH\Models\modeloProducto.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\xampp\\htdocs\\proyectoDulce\\app\\Models\\modeloProducto.php', 42)
+ 2 APPPATH\Controllers\controladorProducto.php(118): App\Models\modeloProducto->listarProductosPorProveedor([...])
+ 3 APPPATH\Controllers\controladorPedido.php(42): App\Controllers\controladorProducto->verProductosPorProveedor([...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\controladorPedido->insertarPedido()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controladorPedido))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-04 01:56:55 --> Array to string conversion
+in APPPATH\Models\modeloProducto.php on line 42.
+ 1 APPPATH\Models\modeloProducto.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\xampp\\htdocs\\proyectoDulce\\app\\Models\\modeloProducto.php', 42)
+ 2 APPPATH\Controllers\controladorProducto.php(118): App\Models\modeloProducto->listarProductosPorProveedor([...])
+ 3 APPPATH\Controllers\controladorPedido.php(42): App\Controllers\controladorProducto->verProductosPorProveedor([...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\controladorPedido->insertarPedido()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controladorPedido))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-04 02:00:15 --> Attempt to read property "pro_codigo" on array
+in APPPATH\Views\crearPedido.php on line 25.
+ 1 APPPATH\Views\crearPedido.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "pro_codigo" on array', 'C:\\xampp\\htdocs\\proyectoDulce\\app\\Views\\crearPedido.php', 25)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\proyectoDulce\\app\\Views\\crearPedido.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('crearPedido', [], true)
+ 5 APPPATH\Controllers\controladorPedido.php(47): view('crearPedido', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\controladorPedido->insertarPedido()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controladorPedido))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-04 02:01:55 --> Undefined property: stdClass::$nombre
+in APPPATH\Controllers\controladorProducto.php on line 125.
+ 1 APPPATH\Controllers\controladorProducto.php(125): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$nombre', 'C:\\xampp\\htdocs\\proyectoDulce\\app\\Controllers\\controladorProducto.php', 125)
+ 2 APPPATH\Controllers\controladorPedido.php(42): App\Controllers\controladorProducto->verProductosPorProveedor(' 1')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\controladorPedido->insertarPedido()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controladorPedido))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-04 02:05:50 --> Attempt to read property "pro_codigo" on array
+in APPPATH\Views\crearPedido.php on line 25.
+ 1 APPPATH\Views\crearPedido.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "pro_codigo" on array', 'C:\\xampp\\htdocs\\proyectoDulce\\app\\Views\\crearPedido.php', 25)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\proyectoDulce\\app\\Views\\crearPedido.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('crearPedido', [], true)
+ 5 APPPATH\Controllers\controladorPedido.php(47): view('crearPedido', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\controladorPedido->insertarPedido()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controladorPedido))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-04 02:07:01 --> Array to string conversion
+in APPPATH\Controllers\controladorPedido.php on line 44.
+ 1 APPPATH\Controllers\controladorPedido.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\xampp\\htdocs\\proyectoDulce\\app\\Controllers\\controladorPedido.php', 44)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\controladorPedido->insertarPedido()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controladorPedido))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-04 02:07:19 --> Undefined array key 0
+in APPPATH\Controllers\controladorPedido.php on line 44.
+ 1 APPPATH\Controllers\controladorPedido.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'C:\\xampp\\htdocs\\proyectoDulce\\app\\Controllers\\controladorPedido.php', 44)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\controladorPedido->insertarPedido()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controladorPedido))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-04 02:09:08 --> call_user_func_array(): Argument #1 ($callback) must be a valid callback, class App\Controllers\controladorProducto does not have a method "verProveedores"
+in APPPATH\Controllers\controladorPedido.php on line 43.
+ 1 APPPATH\Controllers\controladorPedido.php(43): call_user_func_array([...], [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\controladorPedido->insertarPedido()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controladorPedido))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-04 02:09:26 --> Unknown named parameter $prv_id
+in APPPATH\Controllers\controladorPedido.php on line 43.
+ 1 APPPATH\Controllers\controladorPedido.php(43): call_user_func_array([...], [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\controladorPedido->insertarPedido()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controladorPedido))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-04 02:12:49 --> call_user_func_array(): Argument #2 ($args) must be of type array, string given
+in APPPATH\Controllers\controladorPedido.php on line 43.
+ 1 APPPATH\Controllers\controladorPedido.php(43): call_user_func_array([...], ' 1')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\controladorPedido->insertarPedido()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controladorPedido))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-04 02:13:41 --> Attempt to read property "pro_codigo" on array
+in APPPATH\Views\crearPedido.php on line 25.
+ 1 APPPATH\Views\crearPedido.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "pro_codigo" on array', 'C:\\xampp\\htdocs\\proyectoDulce\\app\\Views\\crearPedido.php', 25)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\proyectoDulce\\app\\Views\\crearPedido.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('crearPedido', [], true)
+ 5 APPPATH\Controllers\controladorPedido.php(49): view('crearPedido', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\controladorPedido->insertarPedido()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controladorPedido))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-04 02:13:41 --> Attempt to read property "pro_codigo" on array
+in APPPATH\Views\crearPedido.php on line 25.
+ 1 APPPATH\Views\crearPedido.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "pro_codigo" on array', 'C:\\xampp\\htdocs\\proyectoDulce\\app\\Views\\crearPedido.php', 25)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\proyectoDulce\\app\\Views\\crearPedido.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('crearPedido', [], true)
+ 5 APPPATH\Controllers\controladorPedido.php(49): view('crearPedido', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\controladorPedido->insertarPedido()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controladorPedido))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-04 02:15:12 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 883.
+ 1 SYSTEMPATH\Model.php(642): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(832): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\controladorPedido.php(42): CodeIgniter\Model->__call('verProductosPorProveedor', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\controladorPedido->insertarPedido()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controladorPedido))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-04 12:35:13 --> Undefined array key "mPrvid"
+in APPPATH\Controllers\controladorProducto.php on line 73.
+ 1 APPPATH\Controllers\controladorProducto.php(73): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "mPrvid"', 'C:\\xampp\\htdocs\\proyectoDulce\\app\\Controllers\\controladorProducto.php', 73)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\controladorProducto->modificarProducto()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controladorProducto))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-04 12:59:33 --> syntax error, unexpected token "echo"
+in APPPATH\Views\ultimoPedido.php on line 11.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('ultimoPedido', [], true)
+ 3 APPPATH\Controllers\controladorPedido.php(42): view('ultimoPedido', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\controladorPedido->insertarPedido()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controladorPedido))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-04 20:57:18 --> Object of class stdClass could not be converted to string
+in APPPATH\Views\ultimoPedido.php on line 20.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('ultimoPedido', [], true)
+ 4 APPPATH\Controllers\controladorPedido.php(42): view('ultimoPedido', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\controladorPedido->insertarPedido()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controladorPedido))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-04 20:57:50 --> Cannot use object of type stdClass as array
+in APPPATH\Views\ultimoPedido.php on line 11.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('ultimoPedido', [], true)
+ 4 APPPATH\Controllers\controladorPedido.php(42): view('ultimoPedido', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\controladorPedido->insertarPedido()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controladorPedido))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-04 21:04:51 --> Undefined array key "mPedidoID"
+in APPPATH\Controllers\controladorPedido.php on line 51.
+ 1 APPPATH\Controllers\controladorPedido.php(51): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "mPedidoID"', 'C:\\xampp\\htdocs\\proyectoDulce\\app\\Controllers\\controladorPedido.php', 51)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\controladorPedido->insertarProductoEnPedido()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controladorPedido))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-04 21:05:54 --> Undefined global variable $_SESSION
+in APPPATH\Controllers\controladorPedido.php on line 51.
+ 1 APPPATH\Controllers\controladorPedido.php(51): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined global variable $_SESSION', 'C:\\xampp\\htdocs\\proyectoDulce\\app\\Controllers\\controladorPedido.php', 51)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\controladorPedido->insertarProductoEnPedido()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controladorPedido))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-07-04 21:06:54 --> mysqli_sql_exception: PROCEDURE bdd_inventec.SELECT_PRODUCTOPORPEDID does not exist in C:\xampp\htdocs\proyectoDulce\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\proyectoDulce\system\Database\MySQLi\Connection.php(295): mysqli->query('call SELECT_PRO...', 0)
+#1 C:\xampp\htdocs\proyectoDulce\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('call SELECT_PRO...')
+#2 C:\xampp\htdocs\proyectoDulce\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('call SELECT_PRO...')
+#3 C:\xampp\htdocs\proyectoDulce\app\Models\modeloPedido.php(8): CodeIgniter\Database\BaseConnection->query('call SELECT_PRO...')
+#4 C:\xampp\htdocs\proyectoDulce\app\Controllers\controladorPedido.php(57): App\Models\modeloPedido->verificarProductoEnPedido(Array)
+#5 C:\xampp\htdocs\proyectoDulce\system\CodeIgniter.php(934): App\Controllers\controladorPedido->insertarProductoEnPedido()
+#6 C:\xampp\htdocs\proyectoDulce\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controladorPedido))
+#7 C:\xampp\htdocs\proyectoDulce\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\proyectoDulce\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-07-04 21:06:54 --> PROCEDURE bdd_inventec.SELECT_PRODUCTOPORPEDID does not exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('call SELECT_PRODUCTOPORPEDID(\'2\');', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('call SELECT_PRODUCTOPORPEDID(\'2\');')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('call SELECT_PRODUCTOPORPEDID(\'2\');')
+ 4 APPPATH\Models\modeloPedido.php(8): CodeIgniter\Database\BaseConnection->query('call SELECT_PRODUCTOPORPEDID(\'2\');')
+ 5 APPPATH\Controllers\controladorPedido.php(57): App\Models\modeloPedido->verificarProductoEnPedido([...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\controladorPedido->insertarProductoEnPedido()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controladorPedido))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-07-04 21:24:39 --> mysqli_sql_exception: Incorrect number of arguments for PROCEDURE bdd_inventec.SELECT_PRODUCTOPORPEDID; expected 2, got 1 in C:\xampp\htdocs\proyectoDulce\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\proyectoDulce\system\Database\MySQLi\Connection.php(295): mysqli->query('call SELECT_PRO...', 0)
+#1 C:\xampp\htdocs\proyectoDulce\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('call SELECT_PRO...')
+#2 C:\xampp\htdocs\proyectoDulce\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('call SELECT_PRO...')
+#3 C:\xampp\htdocs\proyectoDulce\app\Models\modeloPedido.php(8): CodeIgniter\Database\BaseConnection->query('call SELECT_PRO...')
+#4 C:\xampp\htdocs\proyectoDulce\app\Controllers\controladorPedido.php(57): App\Models\modeloPedido->verificarProductoEnPedido(Array)
+#5 C:\xampp\htdocs\proyectoDulce\system\CodeIgniter.php(934): App\Controllers\controladorPedido->insertarProductoEnPedido()
+#6 C:\xampp\htdocs\proyectoDulce\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controladorPedido))
+#7 C:\xampp\htdocs\proyectoDulce\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\proyectoDulce\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-07-04 21:24:39 --> Incorrect number of arguments for PROCEDURE bdd_inventec.SELECT_PRODUCTOPORPEDID; expected 2, got 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('call SELECT_PRODUCTOPORPEDID(\'2\');', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('call SELECT_PRODUCTOPORPEDID(\'2\');')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('call SELECT_PRODUCTOPORPEDID(\'2\');')
+ 4 APPPATH\Models\modeloPedido.php(8): CodeIgniter\Database\BaseConnection->query('call SELECT_PRODUCTOPORPEDID(\'2\');')
+ 5 APPPATH\Controllers\controladorPedido.php(57): App\Models\modeloPedido->verificarProductoEnPedido([...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\controladorPedido->insertarProductoEnPedido()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controladorPedido))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-04 21:26:09 --> Undefined array key "prv_id"
+in APPPATH\Models\modeloProducto.php on line 42.
+ 1 APPPATH\Models\modeloProducto.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "prv_id"', 'C:\\xampp\\htdocs\\proyectoDulce\\app\\Models\\modeloProducto.php', 42)
+ 2 APPPATH\Controllers\controladorPedido.php(65): App\Models\modeloProducto->listarProductosPorProveedor([...])
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\controladorPedido->insertarProductoEnPedido()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controladorPedido))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-04 21:35:26 --> session_start(): Ignoring session_start() because a session is already active
+in APPPATH\Views\ultimoPedido.php on line 5.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8, 'session_start(): Ignoring session_start() because a session is already active', 'C:\\xampp\\htdocs\\proyectoDulce\\app\\Views\\ultimoPedido.php', 5)
+ 2 APPPATH\Views\ultimoPedido.php(5): session_start()
+ 3 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\proyectoDulce\\app\\Views\\ultimoPedido.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('ultimoPedido', [], true)
+ 6 APPPATH\Controllers\controladorPedido.php(49): view('ultimoPedido', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\controladorPedido->insertarPedido()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controladorPedido))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-04 21:36:06 --> Undefined global variable $_SESSION
+in APPPATH\Controllers\controladorPedido.php on line 60.
+ 1 APPPATH\Controllers\controladorPedido.php(60): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined global variable $_SESSION', 'C:\\xampp\\htdocs\\proyectoDulce\\app\\Controllers\\controladorPedido.php', 60)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\controladorPedido->insertarProductoEnPedido()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controladorPedido))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-04 21:36:19 --> session_start(): Ignoring session_start() because a session is already active
+in APPPATH\Views\ultimoPedido.php on line 5.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8, 'session_start(): Ignoring session_start() because a session is already active', 'C:\\xampp\\htdocs\\proyectoDulce\\app\\Views\\ultimoPedido.php', 5)
+ 2 APPPATH\Views\ultimoPedido.php(5): session_start()
+ 3 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\proyectoDulce\\app\\Views\\ultimoPedido.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('ultimoPedido', [], true)
+ 6 APPPATH\Controllers\controladorPedido.php(49): view('ultimoPedido', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\controladorPedido->insertarPedido()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controladorPedido))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-04 21:36:36 --> Cannot access offset of type string on string
+in APPPATH\Models\modeloProducto.php on line 42.
+ 1 APPPATH\Controllers\controladorPedido.php(78): App\Models\modeloProducto->listarProductosPorProveedor(' 1')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\controladorPedido->insertarProductoEnPedido()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controladorPedido))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-07-04 21:37:20 --> mysqli_sql_exception: Unknown column 'ped_estado' in 'field list' in C:\xampp\htdocs\proyectoDulce\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\proyectoDulce\system\Database\MySQLi\Connection.php(295): mysqli->query('call INSERT_DET...', 0)
+#1 C:\xampp\htdocs\proyectoDulce\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('call INSERT_DET...')
+#2 C:\xampp\htdocs\proyectoDulce\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('call INSERT_DET...')
+#3 C:\xampp\htdocs\proyectoDulce\app\Models\modeloPedido.php(18): CodeIgniter\Database\BaseConnection->query('call INSERT_DET...')
+#4 C:\xampp\htdocs\proyectoDulce\app\Controllers\controladorPedido.php(87): App\Models\modeloPedido->insertarProductoEnPedido(Array)
+#5 C:\xampp\htdocs\proyectoDulce\system\CodeIgniter.php(934): App\Controllers\controladorPedido->insertarProductoEnPedido()
+#6 C:\xampp\htdocs\proyectoDulce\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controladorPedido))
+#7 C:\xampp\htdocs\proyectoDulce\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\proyectoDulce\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-07-04 21:37:20 --> Unknown column 'ped_estado' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('call INSERT_DETALLEPEDIDO(\'2\',\'41\',\'83\');', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('call INSERT_DETALLEPEDIDO(\'2\',\'41\',\'83\');')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('call INSERT_DETALLEPEDIDO(\'2\',\'41\',\'83\');')
+ 4 APPPATH\Models\modeloPedido.php(18): CodeIgniter\Database\BaseConnection->query('call INSERT_DETALLEPEDIDO(\'2\',\'41\',\'83\');')
+ 5 APPPATH\Controllers\controladorPedido.php(87): App\Models\modeloPedido->insertarProductoEnPedido([...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\controladorPedido->insertarProductoEnPedido()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controladorPedido))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-04 21:38:40 --> session_start(): Ignoring session_start() because a session is already active
+in APPPATH\Views\ultimoPedido.php on line 5.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8, 'session_start(): Ignoring session_start() because a session is already active', 'C:\\xampp\\htdocs\\proyectoDulce\\app\\Views\\ultimoPedido.php', 5)
+ 2 APPPATH\Views\ultimoPedido.php(5): session_start()
+ 3 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\proyectoDulce\\app\\Views\\ultimoPedido.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('ultimoPedido', [], true)
+ 6 APPPATH\Controllers\controladorPedido.php(89): view('ultimoPedido', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\controladorPedido->insertarProductoEnPedido()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controladorPedido))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-04 21:39:23 --> session_start(): Ignoring session_start() because a session is already active
+in APPPATH\Views\ultimoPedido.php on line 5.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8, 'session_start(): Ignoring session_start() because a session is already active', 'C:\\xampp\\htdocs\\proyectoDulce\\app\\Views\\ultimoPedido.php', 5)
+ 2 APPPATH\Views\ultimoPedido.php(5): session_start()
+ 3 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\proyectoDulce\\app\\Views\\ultimoPedido.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('ultimoPedido', [], true)
+ 6 APPPATH\Controllers\controladorPedido.php(89): view('ultimoPedido', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\controladorPedido->insertarProductoEnPedido()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controladorPedido))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-04 21:40:57 --> Undefined global variable $_SESSION
+in APPPATH\Controllers\controladorPedido.php on line 60.
+ 1 APPPATH\Controllers\controladorPedido.php(60): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined global variable $_SESSION', 'C:\\xampp\\htdocs\\proyectoDulce\\app\\Controllers\\controladorPedido.php', 60)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\controladorPedido->insertarProductoEnPedido()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controladorPedido))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-07-04 21:42:05 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`bdd_inventec`.`tbl_pedido`, CONSTRAINT `prvid1` FOREIGN KEY (`prv_id`) REFERENCES `tbl_proveedor` (`prv_id`)) in C:\xampp\htdocs\proyectoDulce\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\proyectoDulce\system\Database\MySQLi\Connection.php(295): mysqli->query('call INSERT_PED...', 0)
+#1 C:\xampp\htdocs\proyectoDulce\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('call INSERT_PED...')
+#2 C:\xampp\htdocs\proyectoDulce\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('call INSERT_PED...')
+#3 C:\xampp\htdocs\proyectoDulce\app\Models\modeloPedido.php(13): CodeIgniter\Database\BaseConnection->query('call INSERT_PED...')
+#4 C:\xampp\htdocs\proyectoDulce\app\Controllers\controladorPedido.php(38): App\Models\modeloPedido->insertarNuevoPedido(Array)
+#5 C:\xampp\htdocs\proyectoDulce\system\CodeIgniter.php(934): App\Controllers\controladorPedido->insertarPedido()
+#6 C:\xampp\htdocs\proyectoDulce\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controladorPedido))
+#7 C:\xampp\htdocs\proyectoDulce\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\proyectoDulce\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-07-04 21:42:05 --> Cannot add or update a child row: a foreign key constraint fails (`bdd_inventec`.`tbl_pedido`, CONSTRAINT `prvid1` FOREIGN KEY (`prv_id`) REFERENCES `tbl_proveedor` (`prv_id`))
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('call INSERT_PEDIDO(\'4\',\'Seleccione una opción\');', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('call INSERT_PEDIDO(\'4\',\'Seleccione una opción\');')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('call INSERT_PEDIDO(\'4\',\'Seleccione una opción\');')
+ 4 APPPATH\Models\modeloPedido.php(13): CodeIgniter\Database\BaseConnection->query('call INSERT_PEDIDO(\'4\',\'Seleccione una opción\');')
+ 5 APPPATH\Controllers\controladorPedido.php(38): App\Models\modeloPedido->insertarNuevoPedido([...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\controladorPedido->insertarPedido()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controladorPedido))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-04 21:42:12 --> Undefined global variable $_SESSION
+in APPPATH\Controllers\controladorPedido.php on line 60.
+ 1 APPPATH\Controllers\controladorPedido.php(60): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined global variable $_SESSION', 'C:\\xampp\\htdocs\\proyectoDulce\\app\\Controllers\\controladorPedido.php', 60)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\controladorPedido->insertarProductoEnPedido()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controladorPedido))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-04 22:13:39 --> Undefined global variable $_SESSION
+in APPPATH\Controllers\controladorPedido.php on line 113.
+ 1 APPPATH\Controllers\controladorPedido.php(113): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined global variable $_SESSION', 'C:\\xampp\\htdocs\\proyectoDulce\\app\\Controllers\\controladorPedido.php', 113)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\controladorPedido->listarProductosEnPedido()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controladorPedido))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-04 22:59:08 --> Undefined property: stdClass::$det_id
+in APPPATH\Views\verDetallePedido.php on line 41.
+ 1 APPPATH\Views\verDetallePedido.php(41): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$det_id', 'C:\\xampp\\htdocs\\proyectoDulce\\app\\Views\\verDetallePedido.php', 41)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\proyectoDulce\\app\\Views\\verDetallePedido.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('verDetallePedido', [], true)
+ 5 APPPATH\Controllers\controladorPedido.php(121): view('verDetallePedido', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\controladorPedido->listarProductosEnPedido()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controladorPedido))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-07-04 23:00:10 --> mysqli_sql_exception: Column 'ped_id' in field list is ambiguous in C:\xampp\htdocs\proyectoDulce\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\proyectoDulce\system\Database\MySQLi\Connection.php(295): mysqli->query('call SELECT_DET...', 0)
+#1 C:\xampp\htdocs\proyectoDulce\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('call SELECT_DET...')
+#2 C:\xampp\htdocs\proyectoDulce\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('call SELECT_DET...')
+#3 C:\xampp\htdocs\proyectoDulce\app\Models\modeloPedido.php(30): CodeIgniter\Database\BaseConnection->query('call SELECT_DET...')
+#4 C:\xampp\htdocs\proyectoDulce\app\Controllers\controladorPedido.php(118): App\Models\modeloPedido->listarProductosEnPedido(Array)
+#5 C:\xampp\htdocs\proyectoDulce\system\CodeIgniter.php(934): App\Controllers\controladorPedido->listarProductosEnPedido()
+#6 C:\xampp\htdocs\proyectoDulce\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controladorPedido))
+#7 C:\xampp\htdocs\proyectoDulce\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\proyectoDulce\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-07-04 23:00:10 --> Column 'ped_id' in field list is ambiguous
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('call SELECT_DETALLEPEDIDOPORPEDIDOID(\'89\');', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('call SELECT_DETALLEPEDIDOPORPEDIDOID(\'89\');')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('call SELECT_DETALLEPEDIDOPORPEDIDOID(\'89\');')
+ 4 APPPATH\Models\modeloPedido.php(30): CodeIgniter\Database\BaseConnection->query('call SELECT_DETALLEPEDIDOPORPEDIDOID(\'89\');')
+ 5 APPPATH\Controllers\controladorPedido.php(118): App\Models\modeloPedido->listarProductosEnPedido([...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\controladorPedido->listarProductosEnPedido()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controladorPedido))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-07-04 23:00:34 --> mysqli_sql_exception: Unknown column 'tbl_detalle.ped_id' in 'field list' in C:\xampp\htdocs\proyectoDulce\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\proyectoDulce\system\Database\MySQLi\Connection.php(295): mysqli->query('call SELECT_DET...', 0)
+#1 C:\xampp\htdocs\proyectoDulce\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('call SELECT_DET...')
+#2 C:\xampp\htdocs\proyectoDulce\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('call SELECT_DET...')
+#3 C:\xampp\htdocs\proyectoDulce\app\Models\modeloPedido.php(30): CodeIgniter\Database\BaseConnection->query('call SELECT_DET...')
+#4 C:\xampp\htdocs\proyectoDulce\app\Controllers\controladorPedido.php(118): App\Models\modeloPedido->listarProductosEnPedido(Array)
+#5 C:\xampp\htdocs\proyectoDulce\system\CodeIgniter.php(934): App\Controllers\controladorPedido->listarProductosEnPedido()
+#6 C:\xampp\htdocs\proyectoDulce\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controladorPedido))
+#7 C:\xampp\htdocs\proyectoDulce\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\proyectoDulce\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-07-04 23:00:34 --> Unknown column 'tbl_detalle.ped_id' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('call SELECT_DETALLEPEDIDOPORPEDIDOID(\'89\');', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('call SELECT_DETALLEPEDIDOPORPEDIDOID(\'89\');')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('call SELECT_DETALLEPEDIDOPORPEDIDOID(\'89\');')
+ 4 APPPATH\Models\modeloPedido.php(30): CodeIgniter\Database\BaseConnection->query('call SELECT_DETALLEPEDIDOPORPEDIDOID(\'89\');')
+ 5 APPPATH\Controllers\controladorPedido.php(118): App\Models\modeloPedido->listarProductosEnPedido([...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\controladorPedido->listarProductosEnPedido()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controladorPedido))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-04 23:00:56 --> Undefined property: stdClass::$det_id
+in APPPATH\Views\verDetallePedido.php on line 41.
+ 1 APPPATH\Views\verDetallePedido.php(41): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$det_id', 'C:\\xampp\\htdocs\\proyectoDulce\\app\\Views\\verDetallePedido.php', 41)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\proyectoDulce\\app\\Views\\verDetallePedido.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('verDetallePedido', [], true)
+ 5 APPPATH\Controllers\controladorPedido.php(121): view('verDetallePedido', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\controladorPedido->listarProductosEnPedido()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controladorPedido))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-04 23:02:02 --> Undefined property: stdClass::$det_id
+in APPPATH\Views\verDetallePedido.php on line 41.
+ 1 APPPATH\Views\verDetallePedido.php(41): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$det_id', 'C:\\xampp\\htdocs\\proyectoDulce\\app\\Views\\verDetallePedido.php', 41)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\proyectoDulce\\app\\Views\\verDetallePedido.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('verDetallePedido', [], true)
+ 5 APPPATH\Controllers\controladorPedido.php(121): view('verDetallePedido', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\controladorPedido->listarProductosEnPedido()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controladorPedido))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-04 23:02:09 --> Undefined property: stdClass::$det_id
+in APPPATH\Views\verDetallePedido.php on line 41.
+ 1 APPPATH\Views\verDetallePedido.php(41): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$det_id', 'C:\\xampp\\htdocs\\proyectoDulce\\app\\Views\\verDetallePedido.php', 41)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\proyectoDulce\\app\\Views\\verDetallePedido.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('verDetallePedido', [], true)
+ 5 APPPATH\Controllers\controladorPedido.php(121): view('verDetallePedido', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\controladorPedido->listarProductosEnPedido()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controladorPedido))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-04 23:04:49 --> Undefined property: stdClass::$det_id
+in APPPATH\Views\verDetallePedido.php on line 45.
+ 1 APPPATH\Views\verDetallePedido.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$det_id', 'C:\\xampp\\htdocs\\proyectoDulce\\app\\Views\\verDetallePedido.php', 45)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\proyectoDulce\\app\\Views\\verDetallePedido.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('verDetallePedido', [], true)
+ 5 APPPATH\Controllers\controladorPedido.php(121): view('verDetallePedido', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\controladorPedido->listarProductosEnPedido()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controladorPedido))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-04 23:05:07 --> Undefined variable $ped
+in APPPATH\Views\verDetallePedido.php on line 47.
+ 1 APPPATH\Views\verDetallePedido.php(47): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $ped', 'C:\\xampp\\htdocs\\proyectoDulce\\app\\Views\\verDetallePedido.php', 47)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\proyectoDulce\\app\\Views\\verDetallePedido.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('verDetallePedido', [], true)
+ 5 APPPATH\Controllers\controladorPedido.php(121): view('verDetallePedido', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\controladorPedido->listarProductosEnPedido()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controladorPedido))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-04 23:07:45 --> Undefined variable $ultimopedido
+in APPPATH\Views\ultimoPedido.php on line 6.
+ 1 APPPATH\Views\ultimoPedido.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $ultimopedido', 'C:\\xampp\\htdocs\\proyectoDulce\\app\\Views\\ultimoPedido.php', 6)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\proyectoDulce\\app\\Views\\ultimoPedido.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('ultimoPedido', [], true)
+ 5 APPPATH\Controllers\controladorPedido.php(152): view('ultimoPedido', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\controladorPedido->insertarMasEnPedido()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controladorPedido))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-04 23:09:19 --> Undefined variable $ultimopedido
+in APPPATH\Views\crearPedido.php on line 6.
+ 1 APPPATH\Views\crearPedido.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $ultimopedido', 'C:\\xampp\\htdocs\\proyectoDulce\\app\\Views\\crearPedido.php', 6)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\proyectoDulce\\app\\Views\\crearPedido.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('crearPedido', [], true)
+ 5 APPPATH\Controllers\controladorPedido.php(152): view('crearPedido', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\controladorPedido->insertarMasEnPedido()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controladorPedido))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-04 23:09:43 --> Undefined global variable $_SESSION
+in APPPATH\Views\crearPedido.php on line 7.
+ 1 APPPATH\Views\crearPedido.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined global variable $_SESSION', 'C:\\xampp\\htdocs\\proyectoDulce\\app\\Views\\crearPedido.php', 7)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\proyectoDulce\\app\\Views\\crearPedido.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('crearPedido', [], true)
+ 5 APPPATH\Controllers\controladorPedido.php(152): view('crearPedido', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\controladorPedido->insertarMasEnPedido()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controladorPedido))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-04 23:47:36 --> Undefined variable $pro
+in APPPATH\Views\VerPedidos.php on line 38.
+ 1 APPPATH\Views\VerPedidos.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pro', 'C:\\xampp\\htdocs\\proyectoDulce\\app\\Views\\VerPedidos.php', 38)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\proyectoDulce\\app\\Views\\VerPedidos.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('VerPedidos', [], true)
+ 5 APPPATH\Controllers\controladorPedido.php(28): view('VerPedidos', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\controladorPedido->listarPedidos()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controladorPedido))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-04 23:47:57 --> session_start(): Ignoring session_start() because a session is already active
+in APPPATH\Views\crearPedido.php on line 5.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8, 'session_start(): Ignoring session_start() because a session is already active', 'C:\\xampp\\htdocs\\proyectoDulce\\app\\Views\\crearPedido.php', 5)
+ 2 APPPATH\Views\crearPedido.php(5): session_start()
+ 3 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\proyectoDulce\\app\\Views\\crearPedido.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('crearPedido', [], true)
+ 6 APPPATH\Controllers\controladorPedido.php(105): view('crearPedido', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\controladorPedido->insertarProductoEnPedido()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controladorPedido))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

@@ -1,0 +1,39 @@
+CRITICAL - 2023-06-30 01:27:55 --> Invalid file: "agregarProveedores.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('agregarProveedores.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('agregarProveedores', [], true)
+ 3 APPPATH\Controllers\controladorProveedor.php(45): view('agregarProveedores')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\controladorProveedor->insertarProveedor()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controladorProveedor))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-06-30 01:34:23 --> mysqli_sql_exception: Unknown column 'Genius' in 'field list' in C:\xampp\htdocs\proyectoDulce\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\proyectoDulce\system\Database\MySQLi\Connection.php(295): mysqli->query('call INSERT_PRO...', 0)
+#1 C:\xampp\htdocs\proyectoDulce\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('call INSERT_PRO...')
+#2 C:\xampp\htdocs\proyectoDulce\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('call INSERT_PRO...')
+#3 C:\xampp\htdocs\proyectoDulce\app\Models\modeloProveedor.php(20): CodeIgniter\Database\BaseConnection->query('call INSERT_PRO...')
+#4 C:\xampp\htdocs\proyectoDulce\app\Controllers\controladorProveedor.php(43): App\Models\modeloProveedor->insertarProveedor(Array)
+#5 C:\xampp\htdocs\proyectoDulce\system\CodeIgniter.php(934): App\Controllers\controladorProveedor->insertarProveedor()
+#6 C:\xampp\htdocs\proyectoDulce\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controladorProveedor))
+#7 C:\xampp\htdocs\proyectoDulce\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\proyectoDulce\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-06-30 01:34:23 --> Unknown column 'Genius' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('call INSERT_PROVEEDOR(Genius,56455,Quito,09954564,genius@gmail.com);', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('call INSERT_PROVEEDOR(Genius,56455,Quito,09954564,genius@gmail.com);')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('call INSERT_PROVEEDOR(Genius,56455,Quito,09954564,genius@gmail.com);')
+ 4 APPPATH\Models\modeloProveedor.php(20): CodeIgniter\Database\BaseConnection->query('call INSERT_PROVEEDOR(Genius,56455,Quito,09954564,genius@gmail.com);')
+ 5 APPPATH\Controllers\controladorProveedor.php(43): App\Models\modeloProveedor->insertarProveedor([...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\controladorProveedor->insertarProveedor()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controladorProveedor))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-30 23:59:17 --> Undefined array key "nombreprv"
+in APPPATH\Controllers\controladorProveedor.php on line 49.
+ 1 APPPATH\Controllers\controladorProveedor.php(49): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nombreprv"', 'C:\\xampp\\htdocs\\proyectoDulce\\app\\Controllers\\controladorProveedor.php', 49)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\controladorProveedor->modificarProveedor()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controladorProveedor))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

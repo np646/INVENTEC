@@ -1,0 +1,42 @@
+INFO - 2023-06-29 23:20:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-29 23:20:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-29 23:20:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-29 23:23:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-29 23:23:48 --> Invalid file: "verProveedores.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('verProveedores.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('verProveedores', [], true)
+ 3 APPPATH\Controllers\controladorProveedor.php(24): view('verProveedores', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\controladorProveedor->listarProveedores()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controladorProveedor))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-29 23:24:41 --> Undefined variable $datosA
+in APPPATH\Views\verProveedores.php on line 76.
+ 1 APPPATH\Views\verProveedores.php(76): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $datosA', 'C:\\xampp\\htdocs\\proyectoDulce\\app\\Views\\verProveedores.php', 76)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\proyectoDulce\\app\\Views\\verProveedores.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('verProveedores', [], true)
+ 5 APPPATH\Controllers\controladorProveedor.php(24): view('verProveedores', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\controladorProveedor->listarProveedores()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controladorProveedor))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-29 23:25:24 --> Undefined variable $datosA
+in APPPATH\Views\verProveedores.php on line 76.
+ 1 APPPATH\Views\verProveedores.php(76): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $datosA', 'C:\\xampp\\htdocs\\proyectoDulce\\app\\Views\\verProveedores.php', 76)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\proyectoDulce\\app\\Views\\verProveedores.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('verProveedores', [], true)
+ 5 APPPATH\Controllers\controladorProveedor.php(24): view('verProveedores', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\controladorProveedor->listarProveedores()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controladorProveedor))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-29 23:43:39 --> Undefined array key "nombreprv"
+in APPPATH\Controllers\controladorProveedor.php on line 33.
+ 1 APPPATH\Controllers\controladorProveedor.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nombreprv"', 'C:\\xampp\\htdocs\\proyectoDulce\\app\\Controllers\\controladorProveedor.php', 33)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\controladorProveedor->insertarProveedor()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\controladorProveedor))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
